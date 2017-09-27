@@ -1,0 +1,218 @@
+Package: r-other-reaktanz-sylly.en
+Architecture: all
+Version: 0.1-2-1
+Priority: optional
+Section: gnu-r
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Installed-Size: 305
+Depends: r-base-core (>= 3.4.0), r-cran-sylly | r-other-reaktanz-sylly
+Filename: dists/unstable/main/all/r-other-reaktanz-sylly.en_0.1-2-1_all.deb
+Size: 275942
+MD5sum: 5a034a6646d76e17156b3b63f95638eb
+SHA1: b59707725848394cca7c3bdc988d33fc6bcc0f25
+SHA256: 43ce89bec46d047b43116d517d3c6c823d63e3ad6fd2505947ab4b6127e53bfc
+SHA512: 46996fca0bd78a0c509b2a78ee1da08edae14f5452ee37994373d9c024572ed541a5a133ffcbce45fd69ca76f0b2a46527a4e46dec0a34dff491d85e091354cf
+Homepage: http://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'sylly' Package:
+ English"
+ .
+ Adds support for the English language to the 'sylly' package. Due to
+ some restrictions on CRAN, the full package sources are only available
+ from the project homepage. To ask for help, report bugs, suggest
+ feature improvements, or discuss the global development of the
+ package, please consider subscribing to the koRpus-dev mailing list
+ (<http://korpusml.reaktanz.de>).
+
+Package: r-other-reaktanz-sylly.nl
+Architecture: all
+Version: 0.1-2-1
+Priority: optional
+Section: gnu-r
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Installed-Size: 130
+Depends: r-base-core (>= 3.4.0), r-cran-sylly | r-other-reaktanz-sylly
+Filename: dists/unstable/main/all/r-other-reaktanz-sylly.nl_0.1-2-1_all.deb
+Size: 98060
+MD5sum: e4bd5a62e2201f6f9fe2527887b42023
+SHA1: a0ee907933d907cfcf55342a4ee741bfa5f854e0
+SHA256: ef22343911fdd65b2ce8575d3333234f32af1835e01b25acbd9fca2658d72581
+SHA512: f49b8e75cddf012e790b807719c51c9cf8296f911fb736077075d04af3463f10ba6dc03774506fe2da1893c42a42f437234818e816fdd5ae39ecaaba1baa300a
+Homepage: http://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'sylly' Package:
+ Dutch"
+ .
+ Adds support for the Dutch language to the 'sylly' package. Due to some
+ restrictions on CRAN, the full package sources are only available from
+ the project homepage. To ask for help, report bugs, suggest feature
+ improvements, or discuss the global development of the package, please
+ consider subscribing to the koRpus-dev mailing list
+ (<http://korpusml.reaktanz.de>).
+
+Package: reaktanz-keyring
+Architecture: all
+Version: 0.01-1
+Priority: extra
+Section: misc
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Installed-Size: 15
+Depends: gnupg (>= 1.0.6-4)
+Filename: dists/unstable/main/all/reaktanz-keyring_0.01-1_all.deb
+Size: 4136
+MD5sum: 2fdd8e486b661c41168cbfbe0f07835b
+SHA1: 96f608565f31a4c5eeb377b8459517e4f32c0aaa
+SHA256: cc0e41c5710e184d7db12fa41d7fa73c6d428e92e987eb04d24dc28aa567d8c5
+SHA512: e720579538e5be9509e307566b40501d73f055f56ba0e88a80d458246bdf59e65ada9d3d836fc142cd90ab73e214050b85d255b9503d58590335f1e653e35d92
+Homepage: https://reaktanz.de/R
+Description: OpenPGP keyring for Debian packages hosted at the reaktanz
+ repository. This keyring is neccessary to use secure apt.
+
+Package: r-other-reaktanz-sylly.de
+Architecture: all
+Version: 0.1-2-1
+Priority: optional
+Section: gnu-r
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Installed-Size: 239
+Depends: r-base-core (>= 3.4.0), r-cran-sylly | r-other-reaktanz-sylly
+Filename: dists/unstable/main/all/r-other-reaktanz-sylly.de_0.1-2-1_all.deb
+Size: 209000
+MD5sum: 32be10cdd821ef1cd2f6da6ff8c2869e
+SHA1: 9ac0ffdc38a561d8ff73e1d333460a0860180b29
+SHA256: 934d77bf3109ab231f30f313b81f85d08250e960d887af85695d5f3ca14bc116
+SHA512: 28fb7eec49e12dd26596a30f30277a85ea07c6efe83073f3a6afbdc80f78f375afbde80a9535ee43dfc73982558b403c36fc6ea4fbd74b4c96f1fb24676e5dff
+Homepage: http://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'sylly' Package:
+ German"
+ .
+ Adds support for the German language to the 'sylly' package. Due to
+ some restrictions on CRAN, the full package sources are only available
+ from the project homepage. To ask for help, report bugs, suggest
+ feature improvements, or discuss the global development of the
+ package, please consider subscribing to the koRpus-dev mailing list
+ (<http://korpusml.reaktanz.de>).
+
+Package: r-other-reaktanz-sylly.es
+Architecture: all
+Version: 0.1-2-1
+Priority: optional
+Section: gnu-r
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Installed-Size: 66
+Depends: r-base-core (>= 3.4.0), r-cran-sylly | r-other-reaktanz-sylly
+Filename: dists/unstable/main/all/r-other-reaktanz-sylly.es_0.1-2-1_all.deb
+Size: 30944
+MD5sum: ba87192b4f64af1de14f0d50faf47642
+SHA1: d5d02cc617509eecab967145d8a1826f56195f6b
+SHA256: 7a64522142af964bad060f963a1b5bf4ea80dac3d30526f8d2a4800a2fd49073
+SHA512: 3599cf0780f383343b1e90369cee3309a13ed73516e55051521853e0137eb9ba4909e76f8284f3f8fbc054a5849517de5d6e494afc64a571b4b241993ab8c1f6
+Homepage: http://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'sylly' Package:
+ Spanish"
+ .
+ Adds support for the Spanish language to the 'sylly' package. Due to
+ some restrictions on CRAN, the full package sources are only available
+ from the project homepage. To ask for help, report bugs, suggest
+ feature improvements, or discuss the global development of the
+ package, please consider subscribing to the koRpus-dev mailing list
+ (<http://korpusml.reaktanz.de>).
+
+Package: r-other-reaktanz-sylly.pt
+Architecture: all
+Version: 0.1-2-1
+Priority: optional
+Section: gnu-r
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Installed-Size: 52
+Depends: r-base-core (>= 3.4.0), r-cran-sylly | r-other-reaktanz-sylly
+Filename: dists/unstable/main/all/r-other-reaktanz-sylly.pt_0.1-2-1_all.deb
+Size: 16606
+MD5sum: e5f24265c7b65def54bf620d6005b6f6
+SHA1: 90e18ea34425893de93de0076b98df3e2fa06ef2
+SHA256: eaa07ea19f26e6fc96e66bdc2894b31e36824ab3123c75ba89ccbfd55e9e47e4
+SHA512: 72f23a3561183ac8dd4a70e230e0bd5cba65d9271e51fb8df51cab776589b96d6b30a6c1377a2906f436ea5e3480f04193add9d40e23bfc5d1660aab08fdc43f
+Homepage: http://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'sylly' Package:
+ Portuguese"
+ .
+ Adds support for the Portuguese language to the 'sylly' package. Due to
+ some restrictions on CRAN, the full package sources are only available
+ from the project homepage. To ask for help, report bugs, suggest
+ feature improvements, or discuss the global development of the
+ package, please consider subscribing to the koRpus-dev mailing list
+ (<http://korpusml.reaktanz.de>).
+
+Package: r-other-reaktanz-sylly.it
+Architecture: all
+Version: 0.1-2-1
+Priority: optional
+Section: gnu-r
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Installed-Size: 53
+Depends: r-base-core (>= 3.4.0), r-cran-sylly | r-other-reaktanz-sylly
+Filename: dists/unstable/main/all/r-other-reaktanz-sylly.it_0.1-2-1_all.deb
+Size: 17796
+MD5sum: 50d3602ff02606c64a457304985cb299
+SHA1: bbd163bc1c54f4731ca66fb3bd1cc0b396153c0d
+SHA256: e3fb4b38205265552d494ca3bbe4b7786adc8bbc8662aad66ea84cedd4e9f468
+SHA512: f4424cde1e11d670284b6dbaa2b6019ee4cf11b1b9f8b3c083d1de01db81e52029c030d6c271e5772e19ead80e4fbe27d1e9a2594e7ae7bfe5fbea99d61e1e16
+Homepage: http://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'sylly' Package:
+ Italian"
+ .
+ Adds support for the Italian language to the 'sylly' package. Due to
+ some restrictions on CRAN, the full package sources are only available
+ from the project homepage. To ask for help, report bugs, suggest
+ feature improvements, or discuss the global development of the
+ package, please consider subscribing to the koRpus-dev mailing list
+ (<http://korpusml.reaktanz.de>).
+
+Package: r-other-reaktanz-sylly.ru
+Architecture: all
+Version: 0.1-2-1
+Priority: optional
+Section: gnu-r
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Installed-Size: 87
+Depends: r-base-core (>= 3.4.0), r-cran-sylly | r-other-reaktanz-sylly
+Filename: dists/unstable/main/all/r-other-reaktanz-sylly.ru_0.1-2-1_all.deb
+Size: 52568
+MD5sum: 3d06c3f8f0ab711f0e45646833f5abdb
+SHA1: 36092953f136dda99aa5d1823db8b72c9264ca34
+SHA256: 2362a12bf8a7ec518c754cf33bac5d5fc3ad3b9d9e6d39ee6ac4a15ed5ceb72d
+SHA512: 74364da2ae2c7b96579222ea9735c23db60be1421ef8837d46885d000e4b45606c3218d335944c0c1664badd50fdf153bae324f4d88385efb4694bb96a945be7
+Homepage: http://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'sylly' Package:
+ Russian"
+ .
+ Adds support for the Russian language to the 'sylly' package. Due to
+ some restrictions on CRAN, the full package sources are only available
+ from the project homepage. To ask for help, report bugs, suggest
+ feature improvements, or discuss the global development of the
+ package, please consider subscribing to the koRpus-dev mailing list
+ (<http://korpusml.reaktanz.de>).
+
+Package: r-other-reaktanz-sylly.fr
+Architecture: all
+Version: 0.1-2-1
+Priority: optional
+Section: gnu-r
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Installed-Size: 60
+Depends: r-base-core (>= 3.4.0), r-cran-sylly | r-other-reaktanz-sylly
+Filename: dists/unstable/main/all/r-other-reaktanz-sylly.fr_0.1-2-1_all.deb
+Size: 24992
+MD5sum: f27f0d526281e84348fa5b0ee5f3f6b6
+SHA1: 8e941b607d0cf3215fdfd5836ac539421bb8e8a2
+SHA256: 57286626c417247d6fde21a8eb25802ec45a56baf4fe8cd8b1645560324d6dfe
+SHA512: d802d5e2c42e189ccc829f681985ce0d99f3a0bb6a5c57e343174a10d06e63b99a70cbb8ad4ce81a56af35413677e405427d84c927f865dc24bd1fb7883b0965
+Homepage: http://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'sylly' Package:
+ French"
+ .
+ Adds support for the French language to the 'sylly' package. Due to
+ some restrictions on CRAN, the full package sources are only available
+ from the project homepage. To ask for help, report bugs, suggest
+ feature improvements, or discuss the global development of the
+ package, please consider subscribing to the koRpus-dev mailing list
+ (<http://korpusml.reaktanz.de>).
+

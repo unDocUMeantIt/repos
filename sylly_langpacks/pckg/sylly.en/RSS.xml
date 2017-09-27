@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>
+			sylly.en
+		</title>
+		<link>
+			https://reaktanz.de/R/pckg/sylly.en
+		</link>
+		<atom:link href="https://reaktanz.de/R/pckg/sylly.en/RSS.xml" rel="self" type="application/rss+xml" />
+		<description>
+			<![CDATA[ 
+				Adds support for the English language to the 'sylly' package. Due to some restrictions on CRAN, the full package sources are only available from the project homepage. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please consider subscribing to the koRpus-dev mailing list (&lt;http://korpusml.reaktanz.de&gt;). 
+			]]>
+		</description>
+		<generator>
+			roxyPackage (0.05-4)
+		</generator>
+		<item>
+			<title>
+				Changes in sylly.en version 0.1-2
+			</title>
+			<link>
+				https://reaktanz.de/R/pckg/sylly.en
+			</link>
+			<pubDate>
+				Tue, 12 Sep 2017 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				sylly.en0.1-2(2017-09-12)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+										changed
+									</h4>
+									<ul>
+										<li>
+											<p>
+												initial release on CRAN
+											</p>
+										</li>
+									</ul> 
+				]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				Changes in sylly.en version 0.1-1
+			</title>
+			<link>
+				https://reaktanz.de/R/pckg/sylly.en
+			</link>
+			<pubDate>
+				Sat, 10 Jun 2017 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				sylly.en0.1-1(2017-06-10)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+										changed
+									</h4>
+									<ul>
+										<li>
+											<p>
+												initial public release
+											</p>
+										</li>
+									</ul>
+									<h4>
+										old
+									</h4>
+									<ul>
+										<li>
+											<p>
+												hyph.en was completely replaced by a custom built pattern set in koRpus 0.04-17
+											</p>
+										</li>
+									</ul> 
+				]]>
+			</description>
+		</item>
+	</channel>
+</rss>

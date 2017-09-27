@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Wed, 27 Sep 2017 18:56:38 +0200
+Source: reaktanz-keyring
+Binary: reaktanz-keyring
+Architecture: all
+Version: 0.01-1
+Distribution: unstable
+Urgency: low
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Changed-By: m.eik michalke <meik.michalke@hhu.de>
+Description:
+ reaktanz-keyring - OpenPGP keyring for Debian packages hosted at the reaktanz
+Changes:
+ reaktanz-keyring (0.01-1) unstable; urgency=low
+ .
+   * new upstream release
+Checksums-Sha1:
+ 96f608565f31a4c5eeb377b8459517e4f32c0aaa 4136 reaktanz-keyring_0.01-1_all.deb
+Checksums-Sha256:
+ cc0e41c5710e184d7db12fa41d7fa73c6d428e92e987eb04d24dc28aa567d8c5 4136 reaktanz-keyring_0.01-1_all.deb
+Files:
+ 2fdd8e486b661c41168cbfbe0f07835b 4136 misc extra reaktanz-keyring_0.01-1_all.deb

@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Wed, 27 Sep 2017 18:57:40 +0200
+Source: r-other-reaktanz-sylly.pt
+Binary: r-other-reaktanz-sylly.pt
+Architecture: all
+Version: 0.1-2-1
+Distribution: unstable
+Urgency: low
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Changed-By: m.eik michalke <meik.michalke@hhu.de>
+Description:
+ r-other-reaktanz-sylly.pt - GNU R package "Language Support for 'sylly' Package:
+Changes:
+ r-other-reaktanz-sylly.pt (0.1-2-1) unstable; urgency=low
+ .
+   * new upstream release
+Checksums-Sha1:
+ 90e18ea34425893de93de0076b98df3e2fa06ef2 16606 r-other-reaktanz-sylly.pt_0.1-2-1_all.deb
+Checksums-Sha256:
+ eaa07ea19f26e6fc96e66bdc2894b31e36824ab3123c75ba89ccbfd55e9e47e4 16606 r-other-reaktanz-sylly.pt_0.1-2-1_all.deb
+Files:
+ e5f24265c7b65def54bf620d6005b6f6 16606 gnu-r optional r-other-reaktanz-sylly.pt_0.1-2-1_all.deb

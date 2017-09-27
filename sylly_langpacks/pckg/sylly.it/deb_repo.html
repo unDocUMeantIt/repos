@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC  "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>
+   Install package r-other-reaktanz-sylly.it from Debain repository
+  </title>
+  <link rel="stylesheet" type="text/css" href="../web.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="roxyPackage" />
+ </head>
+ <body lang="en">
+  <h2>
+   Install R packages from this Debian repository
+  </h2>
+  <h4>
+   Configure repository
+  </h4>
+  <p>
+   Add the repository to your configuration (e.g.,    <code>
+    /etc/apt/sources.list.d/other-reaktanz.list
+   </code>
+   ):
+  </p>
+  <pre class="repo">
+   &nbsp;
+ # for binary packages:
+ deb https://reaktanz.de/R/deb unstable main
+ # for source packages:
+ deb-src https://reaktanz.de/R/deb unstable main
+  </pre>
+  <h4>
+   Add OpenPGP key
+  </h4>
+  <p>
+   To be able to make use of secure apt, install the repository's OpenPGP keyring package:
+  </p>
+  <pre class="repo">
+   &nbsp;
+ sudo aptitude update
+ sudo aptitude install reaktanz-keyring
+  </pre>
+  <h4>
+   Install packages
+  </h4>
+  <p>
+   You can then install the package:
+  </p>
+  <pre class="repo">
+   &nbsp;
+ sudo aptitude install r-other-reaktanz-sylly.it
+  </pre>
+  <h3>
+   Manual download
+  </h3>
+  <p>
+   In case you'd rather like to download the package manually, here it is:
+  </p>
+  <ul>
+   <li>
+    <a href="../../deb/dists/unstable/main/all/r-other-reaktanz-sylly.it_0.1-2-1_all.deb">
+     r-other-reaktanz-sylly.it_0.1-2-1_all.deb
+    </a>
+   </li>
+  </ul>
+  <p>
+   Package source code:
+  </p>
+  <ul>
+   <li>
+    <a href="../../deb/source/unstable/r-other-reaktanz-sylly.it_0.1-2.orig.tar.xz">
+     r-other-reaktanz-sylly.it_0.1-2.orig.tar.xz
+    </a>
+   </li>
+   <li>
+    <a href="../../deb/source/unstable/r-other-reaktanz-sylly.it_0.1-2-1.debian.tar.xz">
+     r-other-reaktanz-sylly.it_0.1-2-1.debian.tar.xz
+    </a>
+   </li>
+   <li>
+    <a href="../../deb/source/unstable/r-other-reaktanz-sylly.it_0.1-2-1.dsc">
+     r-other-reaktanz-sylly.it_0.1-2-1.dsc
+    </a>
+   </li>
+  </ul>
+ </body>
+</html>
