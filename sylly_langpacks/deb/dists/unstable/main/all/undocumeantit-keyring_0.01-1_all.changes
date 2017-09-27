@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Thu, 28 Sep 2017 00:44:51 +0200
+Source: undocumeantit-keyring
+Binary: undocumeantit-keyring
+Architecture: all
+Version: 0.01-1
+Distribution: unstable
+Urgency: low
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Changed-By: m.eik michalke <meik.michalke@hhu.de>
+Description:
+ undocumeantit-keyring - OpenPGP keyring for Debian packages hosted at the
+Changes:
+ undocumeantit-keyring (0.01-1) unstable; urgency=low
+ .
+   * new upstream release
+Checksums-Sha1:
+ 45bfdf877056e665c904c9d499380f7446732801 4190 undocumeantit-keyring_0.01-1_all.deb
+Checksums-Sha256:
+ 7c24c269885d0b620cc4ca4cd0c490b3a67ca16b3fc43108ed9a85f3313f210d 4190 undocumeantit-keyring_0.01-1_all.deb
+Files:
+ c9e2a9bd0dc408b5a90361c2d54c8ef1 4190 misc extra undocumeantit-keyring_0.01-1_all.deb

@@ -5,9 +5,9 @@
 			sylly.de
 		</title>
 		<link>
-			https://reaktanz.de/R/pckg/sylly.de
+			https://undocumeantit.github.io/repos/sylly_langpacks/pckg/sylly.de
 		</link>
-		<atom:link href="https://reaktanz.de/R/pckg/sylly.de/RSS.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://undocumeantit.github.io/repos/sylly_langpacks/pckg/sylly.de/RSS.xml" rel="self" type="application/rss+xml" />
 		<description>
 			<![CDATA[ 
 				Adds support for the German language to the 'sylly' package. Due to some restrictions on CRAN, the full package sources are only available from the project homepage. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please consider subscribing to the koRpus-dev mailing list (&lt;http://korpusml.reaktanz.de&gt;). 
@@ -21,7 +21,7 @@
 				Changes in sylly.de version 0.1-2
 			</title>
 			<link>
-				https://reaktanz.de/R/pckg/sylly.de
+				https://undocumeantit.github.io/repos/sylly_langpacks/pckg/sylly.de
 			</link>
 			<pubDate>
 				Wed, 13 Sep 2017 00:00:00 +0000
@@ -49,7 +49,7 @@
 				Changes in sylly.de version 0.1-1
 			</title>
 			<link>
-				https://reaktanz.de/R/pckg/sylly.de
+				https://undocumeantit.github.io/repos/sylly_langpacks/pckg/sylly.de
 			</link>
 			<pubDate>
 				Sat, 10 Jun 2017 00:00:00 +0000
