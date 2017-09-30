@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Sat, 30 Sep 2017 22:40:45 +0200
+Source: r-other-undocumeantit-korpus.lang.pt
+Binary: r-other-undocumeantit-korpus.lang.pt
+Architecture: all
+Version: 0.01-2-1
+Distribution: unstable
+Urgency: low
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Changed-By: Meik Michalke <meik.michalke@hhu.de>
+Description:
+ r-other-undocumeantit-korpus.lang.pt - GNU R package "Language Support for 'koRpus': Portuguese"
+Changes:
+ r-other-undocumeantit-korpus.lang.pt (0.01-2-1) unstable; urgency=low
+ .
+   * new upstream release
+Checksums-Sha1:
+ 8f009195070060341efc59c468c235d3a60b71cc 16312 r-other-undocumeantit-korpus.lang.pt_0.01-2-1_all.deb
+Checksums-Sha256:
+ 2510e81694e4a1642f8ccd0a85fef7f5cbe96af0133de33484eea0893834478c 16312 r-other-undocumeantit-korpus.lang.pt_0.01-2-1_all.deb
+Files:
+ 8764385f7297e964b8645ccb53ca011c 16312 gnu-r optional r-other-undocumeantit-korpus.lang.pt_0.01-2-1_all.deb

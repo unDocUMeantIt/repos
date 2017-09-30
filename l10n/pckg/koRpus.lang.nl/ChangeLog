@@ -1,0 +1,25 @@
+ChangeLog for package koRpus.lang.nl
+
+changes in version 0.01-4 (2017-09-30)
+changed:
+  - adjusted koRpus dependency to >= 0.11-1
+  - package was moved to the l10n repository on github
+removed:
+  - hyphenation patterns: are now imported via the sylly.pt package
+
+changes in version 0.01-3 (2016-07-11)
+changed:
+  - renamed preset from "nl-utf8" into plain "nl", as UTF-8 is the default in
+    both TreeTagger and koRpus
+added:
+  - README.md file
+
+changes in version 0.01-2 (2015-11-02)
+fixed:
+  - adjusted koRpus dependency to >= 0.06-3
+  - typo in package description
+
+changes in version 0.01-1 (2015-09-21)
+changed:
+  - initial public release via reaktanz.de
+

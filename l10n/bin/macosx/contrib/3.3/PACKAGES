@@ -1,3 +1,17 @@
+Package: koRpus.lang.nl
+Version: 0.01-4
+Depends: R (>= 2.10.0),koRpus (>= 0.11-1)
+Imports: methods,sylly.nl
+License: GPL (>= 3)
+MD5sum: 262bd1010ce2ec18d97ada097ed5e319
+
+Package: koRpus.lang.pt
+Version: 0.01-2
+Depends: R (>= 2.10.0),koRpus (>= 0.11-1)
+Imports: methods,sylly.pt
+License: GPL (>= 3)
+MD5sum: e7916333f6868f8138616968fecde767
+
 Package: sylly.de
 Version: 0.1-2
 Depends: R (>= 3.1),sylly

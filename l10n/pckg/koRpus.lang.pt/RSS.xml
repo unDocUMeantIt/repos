@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>
+			koRpus.lang.pt
+		</title>
+		<link>
+			https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.pt
+		</link>
+		<atom:link href="https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.pt/RSS.xml" rel="self" type="application/rss+xml" />
+		<description>
+			<![CDATA[ 
+				Adds support for the Portuguese language to the 'koRpus' package. Due to some restrictions on CRAN, the full package sources are only available from the project homepage. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please subscribe to the koRpus-dev mailing list (&lt;http://korpusml.reaktanz.de&gt;). 
+			]]>
+		</description>
+		<generator>
+			roxyPackage (0.05-4)
+		</generator>
+		<item>
+			<title>
+				Changes in koRpus.lang.pt version 0.01-2
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.pt
+			</link>
+			<pubDate>
+				Sat, 30 Sep 2017 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				koRpus.lang.pt0.01-2(2017-09-30)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+										changed
+									</h4>
+									<ul>
+										<li>
+											<p>
+												adjusted koRpus dependency to &gt;= 0.11-1
+											</p>
+										</li>
+										<li>
+											<p>
+												package was moved to the l10n repository on github
+											</p>
+										</li>
+									</ul>
+									<h4>
+										removed
+									</h4>
+									<ul>
+										<li>
+											<p>
+												hyphenation patterns: are now imported via the sylly.pt package
+											</p>
+										</li>
+									</ul> 
+				]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				Changes in koRpus.lang.pt version 0.01-1
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.pt
+			</link>
+			<pubDate>
+				Mon, 11 Jul 2016 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				koRpus.lang.pt0.01-1(2016-07-11)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+										changed
+									</h4>
+									<ul>
+										<li>
+											<p>
+												initial release
+											</p>
+										</li>
+									</ul> 
+				]]>
+			</description>
+		</item>
+	</channel>
+</rss>

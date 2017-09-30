@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>
+			koRpus.lang.nl
+		</title>
+		<link>
+			https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.nl
+		</link>
+		<atom:link href="https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.nl/RSS.xml" rel="self" type="application/rss+xml" />
+		<description>
+			<![CDATA[ 
+				Adds support for the Dutch language to the 'koRpus' package. Due to some restrictions on CRAN, the full package sources are only available from the project homepage. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please subscribe to the koRpus-dev mailing list (&lt;http://korpusml.reaktanz.de&gt;). 
+			]]>
+		</description>
+		<generator>
+			roxyPackage (0.05-4)
+		</generator>
+		<item>
+			<title>
+				Changes in koRpus.lang.nl version 0.01-4
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.nl
+			</link>
+			<pubDate>
+				Sat, 30 Sep 2017 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				koRpus.lang.nl0.01-4(2017-09-30)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+										changed
+									</h4>
+									<ul>
+										<li>
+											<p>
+												adjusted koRpus dependency to &gt;= 0.11-1
+											</p>
+										</li>
+										<li>
+											<p>
+												package was moved to the l10n repository on github
+											</p>
+										</li>
+									</ul>
+									<h4>
+										removed
+									</h4>
+									<ul>
+										<li>
+											<p>
+												hyphenation patterns: are now imported via the sylly.pt package
+											</p>
+										</li>
+									</ul> 
+				]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				Changes in koRpus.lang.nl version 0.01-3
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.nl
+			</link>
+			<pubDate>
+				Mon, 11 Jul 2016 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				koRpus.lang.nl0.01-3(2016-07-11)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+										changed
+									</h4>
+									<ul>
+										<li>
+											<p>
+												renamed preset from &quot;nl-utf8&quot; into plain 								<code>
+													"nl"
+												</code>
+												, as UTF-8 is the default in both TreeTagger and koRpus
+											</p>
+										</li>
+									</ul>
+									<h4>
+										added
+									</h4>
+									<ul>
+										<li>
+											<p>
+												README.md file
+											</p>
+										</li>
+									</ul> 
+				]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				Changes in koRpus.lang.nl version 0.01-2
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.nl
+			</link>
+			<pubDate>
+				Mon, 02 Nov 2015 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				koRpus.lang.nl0.01-2(2015-11-02)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+										fixed
+									</h4>
+									<ul>
+										<li>
+											<p>
+												adjusted koRpus dependency to &gt;= 0.06-3
+											</p>
+										</li>
+										<li>
+											<p>
+												typo in package description
+											</p>
+										</li>
+									</ul> 
+				]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				Changes in koRpus.lang.nl version 0.01-1
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.nl
+			</link>
+			<pubDate>
+				Mon, 21 Sep 2015 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				koRpus.lang.nl0.01-1(2015-09-21)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+										changed
+									</h4>
+									<ul>
+										<li>
+											<p>
+												initial public release via reaktanz.de
+											</p>
+										</li>
+									</ul> 
+				]]>
+			</description>
+		</item>
+	</channel>
+</rss>
