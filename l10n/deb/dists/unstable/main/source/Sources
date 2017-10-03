@@ -3,29 +3,29 @@ Format: 3.0 (quilt)
 Binary: r-other-undocumeantit-sylly.pt
 Architecture: all
 Version: 0.1-2-1
-Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
 Standards-Version: 3.9.3.1
-Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly | r-other-undocumeantit-sylly
+Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly
 Homepage: http://reaktanz.de/?c=hacking&s=koRpus
 Directory: source/unstable
 Package-List:
  r-other-undocumeantit-sylly.pt deb gnu-r optional arch=all
 Files:
- eac1c57e3e4b36f1f9c2a9d17b7bcfeb 1134 r-other-undocumeantit-sylly.pt_0.1-2-1.dsc
- 49029cd05ba9298cf3755b61d26cf8bf 5656 r-other-undocumeantit-sylly.pt_0.1-2.orig.tar.xz
- 2de80b8ed69773e3cb604dff70e4e036 1716 r-other-undocumeantit-sylly.pt_0.1-2-1.debian.tar.xz
+ 7dac5965558cb98a0b82dec2ce472ffc 1103 r-other-undocumeantit-sylly.pt_0.1-2-1.dsc
+ 664f7d60e000023eccb5bb3a8adf2d3c 5708 r-other-undocumeantit-sylly.pt_0.1-2.orig.tar.xz
+ 4396d4cf840e228953a9f653bf5b811b 1712 r-other-undocumeantit-sylly.pt_0.1-2-1.debian.tar.xz
 Checksums-Sha1:
- bb7fb6fee86191051bf57c772f0c425f4f271067 1134 r-other-undocumeantit-sylly.pt_0.1-2-1.dsc
- 63e1b0803ec9153df8f5b59935e7ef84945e5042 5656 r-other-undocumeantit-sylly.pt_0.1-2.orig.tar.xz
- 4fbc4953c8e8e4ae05f92ef44b6360bfdd3bda18 1716 r-other-undocumeantit-sylly.pt_0.1-2-1.debian.tar.xz
+ 2d8232762174a16fc7f2df29736d559bea2bbf79 1103 r-other-undocumeantit-sylly.pt_0.1-2-1.dsc
+ 7e885b400f1989cfb75fc884d7b4cf8eb47329e5 5708 r-other-undocumeantit-sylly.pt_0.1-2.orig.tar.xz
+ b51c7b86c6eae85d129ca114abbcd39e61e25090 1712 r-other-undocumeantit-sylly.pt_0.1-2-1.debian.tar.xz
 Checksums-Sha256:
- f0beffb99dd8f0030d5bbc6ea70e09a656e0d440ec669de9b731f04637bb2cf9 1134 r-other-undocumeantit-sylly.pt_0.1-2-1.dsc
- ba202d6ec4e81455956cbcf5c3c7030ac6516b636643f3a344bb2215048e3317 5656 r-other-undocumeantit-sylly.pt_0.1-2.orig.tar.xz
- c654c3d5f05fe46a4e69faab75b4a920587c3074add77336db06b51fb72c5248 1716 r-other-undocumeantit-sylly.pt_0.1-2-1.debian.tar.xz
+ ad70eadd9f597f109834247f6c35c1e48a3589f8a76a46c483c8ee70982dc641 1103 r-other-undocumeantit-sylly.pt_0.1-2-1.dsc
+ e374c6b907f1dfa484f14dfe8ae2c1c26aed5bc4cd06674026429d1eb811a089 5708 r-other-undocumeantit-sylly.pt_0.1-2.orig.tar.xz
+ 2514a2de09891011ddec7f63a5cc35138440b8794e9c8293c00c98be3e02ba79 1712 r-other-undocumeantit-sylly.pt_0.1-2-1.debian.tar.xz
 Checksums-Sha512:
- db10742cbe55b59af177f4ff873bee94bead5b8b7972991a891d8257249d3f55ee744076a0b16d426748b48be467a1ea36bee7974cba1b607cc40ac235cb9e14 1134 r-other-undocumeantit-sylly.pt_0.1-2-1.dsc
- 524e73958e1a93968552ee54777da9648cc4a0ef0ba16419d9d3efbc532ffedf49dc8134f32d1aa298ed5ff60540357ca5a8b5c6f3ad89e4f0e28d7327ceaebc 5656 r-other-undocumeantit-sylly.pt_0.1-2.orig.tar.xz
- 575013b71bb70390717a366c3a51f68ce2b455ee1dfaaa7e2be61a42d57cfe379e2ab2f74c0bd4b675661ee194bc9411c82b0b9add92159f4e9afbaf73a1a2a8 1716 r-other-undocumeantit-sylly.pt_0.1-2-1.debian.tar.xz
+ 064711b545f2ffe9564c42179b7f354b976561aa7ca89ef428cb5179f3416a0a006a20431fbe16bf78e2d02186fb7261beef3b938f29147758a4b9b8c93ee715 1103 r-other-undocumeantit-sylly.pt_0.1-2-1.dsc
+ b849aa344e729b60fbf8a4303836a25a7be99fb3a1a100e68597acc9695830ad21679dbc6251b9ebd3887783024fa048ce1a0d42942ef25fa9e7b140c8374f21 5708 r-other-undocumeantit-sylly.pt_0.1-2.orig.tar.xz
+ c1d9941699677487d9b555de4e2744eff55f8f8779f6cd5c9a1e8f1a2ec7d01c33bcd400acfbdcda9345635bf4fd1844afda5c8a0452cb7575ca4d1632f4d9e9 1712 r-other-undocumeantit-sylly.pt_0.1-2-1.debian.tar.xz
 
 Package: r-other-undocumeantit-korpus.lang.pt
 Format: 3.0 (quilt)
@@ -61,145 +61,145 @@ Format: 3.0 (quilt)
 Binary: r-other-undocumeantit-sylly.de
 Architecture: all
 Version: 0.1-2-1
-Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
 Standards-Version: 3.9.3.1
-Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly | r-other-undocumeantit-sylly
+Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly
 Homepage: http://reaktanz.de/?c=hacking&s=koRpus
 Directory: source/unstable
 Package-List:
  r-other-undocumeantit-sylly.de deb gnu-r optional arch=all
 Files:
- bf50ced2564da59f2a17a08c31d55902 1140 r-other-undocumeantit-sylly.de_0.1-2-1.dsc
- e4099cf47697ca731c78769b20f10406 197620 r-other-undocumeantit-sylly.de_0.1-2.orig.tar.xz
- 75051eb1a0ed68582f10767e1f92ad37 1716 r-other-undocumeantit-sylly.de_0.1-2-1.debian.tar.xz
+ 666df3a2b62acafd65c571f1c3cabc0d 1109 r-other-undocumeantit-sylly.de_0.1-2-1.dsc
+ 3de9cbe17391642b7fe3c15ae9d9c546 197676 r-other-undocumeantit-sylly.de_0.1-2.orig.tar.xz
+ ba547a7c9d65bd95d35dc94cf77aa185 1708 r-other-undocumeantit-sylly.de_0.1-2-1.debian.tar.xz
 Checksums-Sha1:
- 5ef58458bbaf64dc1972c0c23d59d9c316ebf38f 1140 r-other-undocumeantit-sylly.de_0.1-2-1.dsc
- a88e94fe3e5c506eb1cc65788147def4aed17446 197620 r-other-undocumeantit-sylly.de_0.1-2.orig.tar.xz
- 26be8307c9b29d1f7dee77c9c20ee5e933d3bf42 1716 r-other-undocumeantit-sylly.de_0.1-2-1.debian.tar.xz
+ 3235d9252f3fb104acbfc2aea0d6c8fe2d09e613 1109 r-other-undocumeantit-sylly.de_0.1-2-1.dsc
+ 1bfcca0004198330a898768167f279ea7093d268 197676 r-other-undocumeantit-sylly.de_0.1-2.orig.tar.xz
+ e0fbed66b1c6c6b058cb4b40a07dfd567184151a 1708 r-other-undocumeantit-sylly.de_0.1-2-1.debian.tar.xz
 Checksums-Sha256:
- 635396144e25c5fa6ff8d56f04c1f2eb899943ab87814e80c656d7a558b7cf8e 1140 r-other-undocumeantit-sylly.de_0.1-2-1.dsc
- 09dcade5172a7736d4b6470064a1cdb2f6a02b13c67957e3f457cb384e81654c 197620 r-other-undocumeantit-sylly.de_0.1-2.orig.tar.xz
- 303bcf13b778754b80de9946240e2f5b7de3b57d90ac3ecdfdcdb9335edde3b9 1716 r-other-undocumeantit-sylly.de_0.1-2-1.debian.tar.xz
+ ed3cbffe6d01bc365ac3ddad5bce8d0d6d39c77a883437939bc391ec02b6ac46 1109 r-other-undocumeantit-sylly.de_0.1-2-1.dsc
+ 584bb75a39951d15ee8a3f4edfef4359c37fad4967a51be9efa6777362806040 197676 r-other-undocumeantit-sylly.de_0.1-2.orig.tar.xz
+ 96e37f060ddd9d9bd22cf6775d09415a69c7350138955d3a40c8c7fe4e84b694 1708 r-other-undocumeantit-sylly.de_0.1-2-1.debian.tar.xz
 Checksums-Sha512:
- c980358b0ff87a562cce2e231df92a90375c0eedc0f0835344d1c4e1fae7ddd36dac6a98cfbc5220c28fc2b7b1f362e3d8cbab94a7954973f01d072db0e6032b 1140 r-other-undocumeantit-sylly.de_0.1-2-1.dsc
- 92e124f0d2e33e8d8fd157df9f4a4810ed0d4b915898febd4789b460e420e7b93cdea77f2f81a984144e27c9348bc1c42b3455bd9867a642e6bd664aab38b086 197620 r-other-undocumeantit-sylly.de_0.1-2.orig.tar.xz
- 37bb7daaeeaa4daa2684701e3387df53dd29827d54c9812069e0f12b2d39c6fb7ac4d3239c25b9619a7734a54121e6f3b6f237e52a2e640274676ed1323e8008 1716 r-other-undocumeantit-sylly.de_0.1-2-1.debian.tar.xz
+ 8c893857d97743f12fa4e571bcb34380801387fe9595c015668d34396dad1f314729950363ed6ba19f33ebbc03a939f977b9d41b9ceb345b0d6a119fdcef6d67 1109 r-other-undocumeantit-sylly.de_0.1-2-1.dsc
+ 76fdefbb9e288b31bb09665a97c7a4a3c18e5e3c895f8b185599e56ad5034a843d736d4afd460b576c9e87e3ae6c14cea8ebe4330d9939a672ac47936f0c71b5 197676 r-other-undocumeantit-sylly.de_0.1-2.orig.tar.xz
+ e8a4d2f9fccf2cf96dc98fc83dc95e5a1b936a542ba8e5efe569c14e1799911567e225368c03b5efa60bad36418f8f65b5f87442039c5ef057f86566f1be2c28 1708 r-other-undocumeantit-sylly.de_0.1-2-1.debian.tar.xz
 
 Package: r-other-undocumeantit-sylly.fr
 Format: 3.0 (quilt)
 Binary: r-other-undocumeantit-sylly.fr
 Architecture: all
 Version: 0.1-2-1
-Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
 Standards-Version: 3.9.3.1
-Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly | r-other-undocumeantit-sylly
+Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly
 Homepage: http://reaktanz.de/?c=hacking&s=koRpus
 Directory: source/unstable
 Package-List:
  r-other-undocumeantit-sylly.fr deb gnu-r optional arch=all
 Files:
- e6e520f22d7fca5d2f17be0ba59c7a8b 1137 r-other-undocumeantit-sylly.fr_0.1-2-1.dsc
- c1fdf5624479dd44c84b7f2cc62e4da3 13844 r-other-undocumeantit-sylly.fr_0.1-2.orig.tar.xz
- 94c3899a34f9f5eae6d751d59e794e50 1716 r-other-undocumeantit-sylly.fr_0.1-2-1.debian.tar.xz
+ 2d49e43af707ebf810098d0c76d32e01 1106 r-other-undocumeantit-sylly.fr_0.1-2-1.dsc
+ 8b5ce00ab87fa3362d0c987914fd6b5d 13888 r-other-undocumeantit-sylly.fr_0.1-2.orig.tar.xz
+ ba04b182cbbd430d92ad3929f9599092 1704 r-other-undocumeantit-sylly.fr_0.1-2-1.debian.tar.xz
 Checksums-Sha1:
- 0e10135a4a5a3b69eef7788df4b4da1442e87d50 1137 r-other-undocumeantit-sylly.fr_0.1-2-1.dsc
- 7973c5c7a486f9e6ba06697a95dc188d230be46b 13844 r-other-undocumeantit-sylly.fr_0.1-2.orig.tar.xz
- 0e17dfa08670f552e77448101a8fa3c543c7140d 1716 r-other-undocumeantit-sylly.fr_0.1-2-1.debian.tar.xz
+ abd9eb1598de55e25e0c3b7885662aef749cb440 1106 r-other-undocumeantit-sylly.fr_0.1-2-1.dsc
+ 9d019390824644563641c72b8211e187c6eb8700 13888 r-other-undocumeantit-sylly.fr_0.1-2.orig.tar.xz
+ f96132a4eb98e6c31498c013d4a3eaa13b36005b 1704 r-other-undocumeantit-sylly.fr_0.1-2-1.debian.tar.xz
 Checksums-Sha256:
- 604c2a66b7e099c1e9f241f0111db0d9da115a579c2415ef58e4de7b30669f7b 1137 r-other-undocumeantit-sylly.fr_0.1-2-1.dsc
- c164f07c70f89e914a8f855fab6b1eb3a7de3050b54563cf5bde76f078afcca2 13844 r-other-undocumeantit-sylly.fr_0.1-2.orig.tar.xz
- 6ceaaff86f3af256c242daf9cd1b778eb1e96e27190195d9d342f77a257ad115 1716 r-other-undocumeantit-sylly.fr_0.1-2-1.debian.tar.xz
+ 1380e7d20ae60f39728a859094fb53e9d615f8c054a744784e72d34652f3850c 1106 r-other-undocumeantit-sylly.fr_0.1-2-1.dsc
+ 8216005084f4c523a6ef5972ee1603d904025c546f4784d207e33ef098a16dbc 13888 r-other-undocumeantit-sylly.fr_0.1-2.orig.tar.xz
+ b5f41f9255977e9993b1f78dd0ccee27bb0eeec2d33916d92cb373a54a34afbd 1704 r-other-undocumeantit-sylly.fr_0.1-2-1.debian.tar.xz
 Checksums-Sha512:
- 428bd7d902134906355382bf5ddcb305265038c971c42294dd4c3a01f7153cd0b41b8f06c38047a9f575dfb69b4129236c25ce10e7355793fcf46072b5e260a8 1137 r-other-undocumeantit-sylly.fr_0.1-2-1.dsc
- 4aebb3fd984838b23a8b8360616db1cd62dbb24857d3dca0d1d7c3462215b3f86c074100846148cc54ed5dd9f56fa65a6ab9de396cb7341174517d463b50f7ed 13844 r-other-undocumeantit-sylly.fr_0.1-2.orig.tar.xz
- 10fa669fab31f5be5b46c6507bc903d751bac0f349b3012cff42f7ece3804f83206711c299be3bcee628d3e25b8f19eefe582c06235efdc6e8ff15bdb3f9eaa7 1716 r-other-undocumeantit-sylly.fr_0.1-2-1.debian.tar.xz
+ b3eee2785ae346eea70aa92b6ec349e40385a018208c38a0cf9a5e7d6c2043fadfc17c76bc1fdef0eded999a98c840bd5a34690f29218c8e6dab451bfbf319ab 1106 r-other-undocumeantit-sylly.fr_0.1-2-1.dsc
+ 9cec017fc82a7af9ca17135f40183f4afad3f9eed37ffd7f82b44ba470b068771678f0cd0b123cf91c07a2b0780359bcc83a636bf0dce84a724c5ff07c6bf559 13888 r-other-undocumeantit-sylly.fr_0.1-2.orig.tar.xz
+ 32f4db796b100cda788116bed9aa8ec6a04bebecefc95d29fdf8c16c5c01c93360813c1ec77462d1238b941e676696fa9b67803784886c2782cdb9e24e64293d 1704 r-other-undocumeantit-sylly.fr_0.1-2-1.debian.tar.xz
 
 Package: r-other-undocumeantit-sylly.es
 Format: 3.0 (quilt)
 Binary: r-other-undocumeantit-sylly.es
 Architecture: all
 Version: 0.1-2-1
-Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
 Standards-Version: 3.9.3.1
-Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly | r-other-undocumeantit-sylly
+Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly
 Homepage: http://reaktanz.de/?c=hacking&s=koRpus
 Directory: source/unstable
 Package-List:
  r-other-undocumeantit-sylly.es deb gnu-r optional arch=all
 Files:
- 9865c04f2041c7c1a5d79ba9a96d1c44 1137 r-other-undocumeantit-sylly.es_0.1-2-1.dsc
- 3816d22a56e7845058efbe0572ad7620 19820 r-other-undocumeantit-sylly.es_0.1-2.orig.tar.xz
- 4446c33875b28565d1e5080c77d30750 1716 r-other-undocumeantit-sylly.es_0.1-2-1.debian.tar.xz
+ ed99c65e8b69c930beeeef85af9f0405 1106 r-other-undocumeantit-sylly.es_0.1-2-1.dsc
+ 0edc34e04bebe08d4590cf70b402ffec 19864 r-other-undocumeantit-sylly.es_0.1-2.orig.tar.xz
+ 2d3d9481d413e1f8dbf6c71d3c8a4742 1708 r-other-undocumeantit-sylly.es_0.1-2-1.debian.tar.xz
 Checksums-Sha1:
- e707d08c428e4876c168bf535ac12d5cbd82ce20 1137 r-other-undocumeantit-sylly.es_0.1-2-1.dsc
- b8d2f7042b0da36bcca051aa31c0ae8509ae0ad6 19820 r-other-undocumeantit-sylly.es_0.1-2.orig.tar.xz
- 784f833574fd85729ba6473475fd5be3e7c54ccc 1716 r-other-undocumeantit-sylly.es_0.1-2-1.debian.tar.xz
+ 5fe36ac8032b1998307620de7cafeb00f2404b7b 1106 r-other-undocumeantit-sylly.es_0.1-2-1.dsc
+ e0f0b33bf0c5c9bc862d5e0fac75ae1938a2ab13 19864 r-other-undocumeantit-sylly.es_0.1-2.orig.tar.xz
+ 62b424f6217d6ec01cf4100c18940c17b8b100a2 1708 r-other-undocumeantit-sylly.es_0.1-2-1.debian.tar.xz
 Checksums-Sha256:
- 46efe6235fba45f724993b436ef55d6a122296db8164d8ecf2e98c675a80bc12 1137 r-other-undocumeantit-sylly.es_0.1-2-1.dsc
- 7f865f003cd6a71315a4d6eed4c8cd7f7c8926d8beaf16df2dc0e43dde408165 19820 r-other-undocumeantit-sylly.es_0.1-2.orig.tar.xz
- 75cf6f52fac74419a9cea10cfa0cb56cad5c8f8695b3e3b49104a48a17b55565 1716 r-other-undocumeantit-sylly.es_0.1-2-1.debian.tar.xz
+ bab1ec2f5ec830186fbba354ff748f61df15e56698ee6153499efae2318809cd 1106 r-other-undocumeantit-sylly.es_0.1-2-1.dsc
+ d99e2279a23ec45a763a7707b1efef1ed697af9c3a2fbfd3c1c66567890f9f63 19864 r-other-undocumeantit-sylly.es_0.1-2.orig.tar.xz
+ 88dfdc03e187bcf3ca1835b786a365d0630f107a7245328142d76a94974a5fad 1708 r-other-undocumeantit-sylly.es_0.1-2-1.debian.tar.xz
 Checksums-Sha512:
- 50b2e7e7782a121f9cdfb42f4f775d10b02efa011fac0630872511927b82714183b7d4971650ab875e1fa25b429aa49926ada6cf15379817e71a007d51f9c00c 1137 r-other-undocumeantit-sylly.es_0.1-2-1.dsc
- 086e0a89115931d206a7795c4883f6f446080fad35bee6f4814355f4da6d14bb4ef79d01bd193d62d5416c45896d022b69bff876bb4fa2eaeb064888df438129 19820 r-other-undocumeantit-sylly.es_0.1-2.orig.tar.xz
- afce8ae5220b5ac8d04666046553f49de45dbc7d6d6d99abb884b1b8dc47cc50c16a648e9346f77a3661528f5601841c415f22e6fdc1754df55a0f37d68df2c6 1716 r-other-undocumeantit-sylly.es_0.1-2-1.debian.tar.xz
+ 201eddab8ce4f14ff67c7d4217d88dd941fc1ee36bd59ee1faef4118a84eaeeaa527ccef351127ef23e033cc9f68af0ab89f691eda20d2956905cb8abf2a2838 1106 r-other-undocumeantit-sylly.es_0.1-2-1.dsc
+ 8bab1180e79ab3b4b537e11359e7410fa7239fe5fe275b08c4ece7508188524dcc707c66ed1563937cb5c812fd4a4a60a4465a7dc9b177f7724d6a67ea5f8175 19864 r-other-undocumeantit-sylly.es_0.1-2.orig.tar.xz
+ d2a6a2e3194748b018ecbfdf6b9413376f03fe7342566e089d8e0052ea1e470cb6ed9f8a8049266c2f95abd749d4d6c0e8754c1677d19871f511734c86d3562b 1708 r-other-undocumeantit-sylly.es_0.1-2-1.debian.tar.xz
 
 Package: r-other-undocumeantit-sylly.ru
 Format: 3.0 (quilt)
 Binary: r-other-undocumeantit-sylly.ru
 Architecture: all
 Version: 0.1-2-1
-Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
 Standards-Version: 3.9.3.1
-Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly | r-other-undocumeantit-sylly
+Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly
 Homepage: http://reaktanz.de/?c=hacking&s=koRpus
 Directory: source/unstable
 Package-List:
  r-other-undocumeantit-sylly.ru deb gnu-r optional arch=all
 Files:
- 7b210529b689149188c740891b166529 1137 r-other-undocumeantit-sylly.ru_0.1-2-1.dsc
- 00c4a42e7fd0182a31d78d8e63d52503 41456 r-other-undocumeantit-sylly.ru_0.1-2.orig.tar.xz
- 2f6a4ddbbb6a4ca26bf0456a1de055f8 1720 r-other-undocumeantit-sylly.ru_0.1-2-1.debian.tar.xz
+ dd6857d46b1ed3ae4963810a718784c2 1106 r-other-undocumeantit-sylly.ru_0.1-2-1.dsc
+ c34cf527cfd1a2714c5e37f73a8f111e 41516 r-other-undocumeantit-sylly.ru_0.1-2.orig.tar.xz
+ 00f5f38396bedc3beb5389f2ef18aff9 1708 r-other-undocumeantit-sylly.ru_0.1-2-1.debian.tar.xz
 Checksums-Sha1:
- a4a1e0ae35d3509b41c4135c873f5e64cef62c61 1137 r-other-undocumeantit-sylly.ru_0.1-2-1.dsc
- 9c08469de2e429f93aad1fc2265e33de9f1c3e81 41456 r-other-undocumeantit-sylly.ru_0.1-2.orig.tar.xz
- a395d1bc2b11ee715315cb581f1e976471bfc901 1720 r-other-undocumeantit-sylly.ru_0.1-2-1.debian.tar.xz
+ 41a84fd722f8e55ed4d9b8f22e22f6e50e0f9b10 1106 r-other-undocumeantit-sylly.ru_0.1-2-1.dsc
+ 45970adeb04d3232d8a99d2d59f6beb491d84c97 41516 r-other-undocumeantit-sylly.ru_0.1-2.orig.tar.xz
+ ec6bfb46f4a8b24fc655380079ef7db9687fd392 1708 r-other-undocumeantit-sylly.ru_0.1-2-1.debian.tar.xz
 Checksums-Sha256:
- 8ea7f54ab1a7563f58e6fece59e37c30abf789b0d665fc326b3e32fe673b9b09 1137 r-other-undocumeantit-sylly.ru_0.1-2-1.dsc
- 817508823ecf7d839930548ebbae79d5d112fb49f7667482da5346d7ccbe5c8d 41456 r-other-undocumeantit-sylly.ru_0.1-2.orig.tar.xz
- 495419c69ff06ec9b149e150ab1ecae28212c79151f26799b9bc5d3c48149aed 1720 r-other-undocumeantit-sylly.ru_0.1-2-1.debian.tar.xz
+ 1403eb018df5a08b8050ef15f0f229ca5b29ea3d7f5a2efab30b91e4e3a38baf 1106 r-other-undocumeantit-sylly.ru_0.1-2-1.dsc
+ f629186a5f342abc2ef15f5fe5a637f79e0e113ecec746204aba80de8bfa8f1e 41516 r-other-undocumeantit-sylly.ru_0.1-2.orig.tar.xz
+ 01151d79f0d766ed7b9a8aeff70a33308676762d42ad3aa905a1884a80bac0b1 1708 r-other-undocumeantit-sylly.ru_0.1-2-1.debian.tar.xz
 Checksums-Sha512:
- 01114d0966fdc5ec230e0cf8d0009fa1baae704b9de4982fef19d6b49b083b1300141e34c4fde7953f01cdac0dfd0897a49469bd7c27ba5862d6ab2f55e1c08b 1137 r-other-undocumeantit-sylly.ru_0.1-2-1.dsc
- 31124277adc4f81e7316ff93046df0139730e64744fe430600b943c02ab4fe8972a11041c9790d505d7139f4dba45dca9c58c7f17d930157a3235e3836dae197 41456 r-other-undocumeantit-sylly.ru_0.1-2.orig.tar.xz
- 558bcdbd646a4fd07a0dc2e0c633cba36f3a8ad2349659b28cdaa7b4c0209ad6a640b5fbcf3c72c228ae61c67bee078d81698694b19fe68d338ccdb4a640c354 1720 r-other-undocumeantit-sylly.ru_0.1-2-1.debian.tar.xz
+ 4b460c0ead2b8db866aa3f45d903db3f2d053a0d3b5c4f3df53384f77369c28104f514968c521e8ae9d59dd29998ce17cd83b89a3b04b5327c956031759b1539 1106 r-other-undocumeantit-sylly.ru_0.1-2-1.dsc
+ 5aeb2225bf3370d73709db97e63f8f99d95559beb6cbf3c69a169c7d97d7ba876775ca0bd9cde5e52d59ba914cab6377ac160bbf509758096df4ce164e566122 41516 r-other-undocumeantit-sylly.ru_0.1-2.orig.tar.xz
+ 2a6c588562f9602540037abea284b1ec9d6665d0df09e338fc2df496d2feacaa04b4e47070f21fc1cadc0362f1616d0acbd5bb37122e345cfa76a050b4e464a8 1708 r-other-undocumeantit-sylly.ru_0.1-2-1.debian.tar.xz
 
 Package: r-other-undocumeantit-sylly.it
 Format: 3.0 (quilt)
 Binary: r-other-undocumeantit-sylly.it
 Architecture: all
 Version: 0.1-2-1
-Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
 Standards-Version: 3.9.3.1
-Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly | r-other-undocumeantit-sylly
+Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly
 Homepage: http://reaktanz.de/?c=hacking&s=koRpus
 Directory: source/unstable
 Package-List:
  r-other-undocumeantit-sylly.it deb gnu-r optional arch=all
 Files:
- b68dd69d8ce8b19477e4aaa3d1284584 1134 r-other-undocumeantit-sylly.it_0.1-2-1.dsc
- 8980bf173d80c8663756dd9b0c95b566 6672 r-other-undocumeantit-sylly.it_0.1-2.orig.tar.xz
- cd5509be1ece5d492f39d9816cbde8a9 1716 r-other-undocumeantit-sylly.it_0.1-2-1.debian.tar.xz
+ d53faa1bbd7d11294c317471fc41c5f0 1103 r-other-undocumeantit-sylly.it_0.1-2-1.dsc
+ 46bc968685e793d0bf2628515fc436fd 6716 r-other-undocumeantit-sylly.it_0.1-2.orig.tar.xz
+ 78af7dfe829d19ae3020a872b10e15e6 1712 r-other-undocumeantit-sylly.it_0.1-2-1.debian.tar.xz
 Checksums-Sha1:
- 3aab711764781e8901817f1d7788afbd6e2fd5b9 1134 r-other-undocumeantit-sylly.it_0.1-2-1.dsc
- e55ace235cb1232c32317af24919bf43d511fa47 6672 r-other-undocumeantit-sylly.it_0.1-2.orig.tar.xz
- 159cf98837328adf1882753533f0ddd3575d9b95 1716 r-other-undocumeantit-sylly.it_0.1-2-1.debian.tar.xz
+ 2974fc3602916ae3d4b2a1a2e95abce93e3dde0c 1103 r-other-undocumeantit-sylly.it_0.1-2-1.dsc
+ 011fea7e65ad705a7d16a1a723ea667a35c638bd 6716 r-other-undocumeantit-sylly.it_0.1-2.orig.tar.xz
+ 75cbb09b659db677e4e89383b906642db3e18630 1712 r-other-undocumeantit-sylly.it_0.1-2-1.debian.tar.xz
 Checksums-Sha256:
- 6bba0cb984f4841db99bbf3aea764ea3ccde0d95492c4b225885eb45bf211a21 1134 r-other-undocumeantit-sylly.it_0.1-2-1.dsc
- 55dc598515f4a022a9a26a86c63c398a41ea84cede8993c6c00984249bea9d16 6672 r-other-undocumeantit-sylly.it_0.1-2.orig.tar.xz
- 42e471f66655ade58a8562edadaae7325df047ea9cc47a33ccade38129e893b4 1716 r-other-undocumeantit-sylly.it_0.1-2-1.debian.tar.xz
+ 1bc039146c21e7e299b07532abd424d3237c1aea6858d02c290172f57babb658 1103 r-other-undocumeantit-sylly.it_0.1-2-1.dsc
+ d9431ce676e2660927fa57265dfd426b6618e6fc7d734726ce9f67155e412546 6716 r-other-undocumeantit-sylly.it_0.1-2.orig.tar.xz
+ 6b4e6f7603607d2e701bfd60ff6d4d5f8894cefcac920f3422f814c77468c69a 1712 r-other-undocumeantit-sylly.it_0.1-2-1.debian.tar.xz
 Checksums-Sha512:
- 276c73ef9267d3224c6d69e0b2e19a459c42b3fc4bcc690142369d772ce84a123edb21efc3e47bb9f62b3210397adb1c13e1ee4d9b25678ac9038d0df696b1ac 1134 r-other-undocumeantit-sylly.it_0.1-2-1.dsc
- 240740e699e191c2cbc25b89891f743247fe8a9cbc1e534ae10c8e589e8b99625cf9a9e3088a13c4c9f67129a1e297a6f5a457a20bec56d4bbaf10f4e2e15206 6672 r-other-undocumeantit-sylly.it_0.1-2.orig.tar.xz
- a6ed59bf1d86fcec601fed69ee109daa820a3d1770240ceaaf194aab9659fbbc364a746b4a1f405867b88779d1ef871785ce747f99ec45f6ad9ef7709d7e2a6b 1716 r-other-undocumeantit-sylly.it_0.1-2-1.debian.tar.xz
+ cc5d505ae7206e1c4691c39245d0ab5d073fbfd43f83ec1ddf8a27a46acde434aad37855cdac8c220b87c8d2d91beeb070529c5a3064a5d270ec548164b02655 1103 r-other-undocumeantit-sylly.it_0.1-2-1.dsc
+ 290aca8a775d2e78cbec44deec3cbc8442a192aed558c431b36751e70a5e8b281cb053ac805d43f63492ac857a12a09331e5db81387d1a57b33499bb8ae569b9 6716 r-other-undocumeantit-sylly.it_0.1-2.orig.tar.xz
+ 58da0a954a71fafb296df8ea13165fc0a18bbc6958a3240c2ccc1e1265045a26d65f93828728a4b3dac8672429bc31e3bd86cbcd61f9badd729c747ae4d536a2 1712 r-other-undocumeantit-sylly.it_0.1-2-1.debian.tar.xz
 
 Package: undocumeantit-keyring
 Format: 3.0 (quilt)
@@ -235,29 +235,29 @@ Format: 3.0 (quilt)
 Binary: r-other-undocumeantit-sylly.en
 Architecture: all
 Version: 0.1-2-1
-Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
 Standards-Version: 3.9.3.1
-Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly | r-other-undocumeantit-sylly
+Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly
 Homepage: http://reaktanz.de/?c=hacking&s=koRpus
 Directory: source/unstable
 Package-List:
  r-other-undocumeantit-sylly.en deb gnu-r optional arch=all
 Files:
- 177da6a3def58e10f353631cf4c01c07 1140 r-other-undocumeantit-sylly.en_0.1-2-1.dsc
- 9902eaa5abca89e3902f07ce9162adac 264608 r-other-undocumeantit-sylly.en_0.1-2.orig.tar.xz
- 67cb2b2ae5cc96e3a221099eb6fff10f 1716 r-other-undocumeantit-sylly.en_0.1-2-1.debian.tar.xz
+ b6d6ff57042ac0282af81518e3161a2e 1109 r-other-undocumeantit-sylly.en_0.1-2-1.dsc
+ 1ad6188a78b8a4cc932881a1a9898e8f 264668 r-other-undocumeantit-sylly.en_0.1-2.orig.tar.xz
+ 60f5360b1a91a199b18dee6b1c5de783 1708 r-other-undocumeantit-sylly.en_0.1-2-1.debian.tar.xz
 Checksums-Sha1:
- 10887d0ae0e715293020a9c8a207f8c4b9b14dd7 1140 r-other-undocumeantit-sylly.en_0.1-2-1.dsc
- 51e5595b5fc6f7b4d0e3630cb661250d281fd4d3 264608 r-other-undocumeantit-sylly.en_0.1-2.orig.tar.xz
- a5d3cd852dd09a357dd08424833cdd8da7a55ed2 1716 r-other-undocumeantit-sylly.en_0.1-2-1.debian.tar.xz
+ 36d03d4a0693c177bd64361e46bb1ff6c023968a 1109 r-other-undocumeantit-sylly.en_0.1-2-1.dsc
+ 21b1a097a2fdb7399d1d3e13005121b83f24e458 264668 r-other-undocumeantit-sylly.en_0.1-2.orig.tar.xz
+ a988c6afce73045a588edf3c8d7bd6e317a3b190 1708 r-other-undocumeantit-sylly.en_0.1-2-1.debian.tar.xz
 Checksums-Sha256:
- 835f211e2408b33dcd89d8514de0f78ca7e5939b823ec1e8b4e8787931467eed 1140 r-other-undocumeantit-sylly.en_0.1-2-1.dsc
- f2bafabf944de3492b3d1f836bc847407aed123bdd2f3e54ad2715d666e48893 264608 r-other-undocumeantit-sylly.en_0.1-2.orig.tar.xz
- dc7636cf57caeec322251fda884d3a86a8576f18db167d30abcd5387f3766bac 1716 r-other-undocumeantit-sylly.en_0.1-2-1.debian.tar.xz
+ ceed90fc074c7ba8ab49ada9c7a4640bbda54533843f29bfbcb9ce6c7d8649db 1109 r-other-undocumeantit-sylly.en_0.1-2-1.dsc
+ cfc20c05973ee93b06a8e58ddf5e06522a05fd9162ef6cca68da55779bb9a108 264668 r-other-undocumeantit-sylly.en_0.1-2.orig.tar.xz
+ ebba8266f85ef1c99a7534c824f4d17f61db750bc6f60ee67a53017c13a9be15 1708 r-other-undocumeantit-sylly.en_0.1-2-1.debian.tar.xz
 Checksums-Sha512:
- f8804a088942f5146c7b2c7d361dbee4e5e4acfeee8afcc22721cdf2d0c7cde886a140fbd5ec773cf64819474cab81aa08aedea6a0455b74194d9114cd60d454 1140 r-other-undocumeantit-sylly.en_0.1-2-1.dsc
- 28c2970de2ab459bc5d3f4f82d440dad22097e553279a0e09fcc382bc24b480177afdd62e45bb2c2d65edd4b2e96a3a575237fb35d7168d968f5bdcdae92b3bf 264608 r-other-undocumeantit-sylly.en_0.1-2.orig.tar.xz
- a34f42a90b37130781f196de9ef35370fd332758f6933faf793b393f5c082f059130b3c93462e9827deab3f22c84019d5faaf1f8906d965dceee33b2f98eb8c3 1716 r-other-undocumeantit-sylly.en_0.1-2-1.debian.tar.xz
+ 1c0b03b66004214b9037212f2610a225859bc8fa9b75b47a69c111af1ccfde9f83b8a24cba28b786d2cb3532370fe83a1e0c633dec3099f27240ad794f2549d7 1109 r-other-undocumeantit-sylly.en_0.1-2-1.dsc
+ 28751a0a1faff401ea8f40ca362060429b79b209b7677efd07b5c54e3ca6256f741400b9e301c2151a8a358f8f2e9aaf66f807278dc07de8a4d49217c2a75ee9 264668 r-other-undocumeantit-sylly.en_0.1-2.orig.tar.xz
+ 3859eea87fe395dab164bfa20fecf7b95b48b47d8988bc5335af08d854713e0593b39681b799dcb0d64b773fddd599a485e523714b601cb64a69213b97a2dcf1 1708 r-other-undocumeantit-sylly.en_0.1-2-1.debian.tar.xz
 
 Package: r-other-undocumeantit-korpus.lang.nl
 Format: 3.0 (quilt)
@@ -293,27 +293,27 @@ Format: 3.0 (quilt)
 Binary: r-other-undocumeantit-sylly.nl
 Architecture: all
 Version: 0.1-2-1
-Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
 Standards-Version: 3.9.3.1
-Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly | r-other-undocumeantit-sylly
+Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly
 Homepage: http://reaktanz.de/?c=hacking&s=koRpus
 Directory: source/unstable
 Package-List:
  r-other-undocumeantit-sylly.nl deb gnu-r optional arch=all
 Files:
- 5dba71551d769b4ca8885e698f0b2413 1137 r-other-undocumeantit-sylly.nl_0.1-2-1.dsc
- 91e30ca6e39839a909c9f877bb662bf0 87192 r-other-undocumeantit-sylly.nl_0.1-2.orig.tar.xz
- 32c759886d1db367ebf93a241fed5c99 1716 r-other-undocumeantit-sylly.nl_0.1-2-1.debian.tar.xz
+ aaaf81c15a3e6f417d7cfe5c177042d4 1106 r-other-undocumeantit-sylly.nl_0.1-2-1.dsc
+ 05661d850d05976493bd3bdfbcae549c 87240 r-other-undocumeantit-sylly.nl_0.1-2.orig.tar.xz
+ b20a0a39148cac590e76ac783e8ea799 1704 r-other-undocumeantit-sylly.nl_0.1-2-1.debian.tar.xz
 Checksums-Sha1:
- f4f5e3d5d8a599de2f593d82fe0c101565125530 1137 r-other-undocumeantit-sylly.nl_0.1-2-1.dsc
- a6e109aac9fe20929ca55a398311c7f8c503ea33 87192 r-other-undocumeantit-sylly.nl_0.1-2.orig.tar.xz
- 7fbbd5c40ec432634c7f325e9ede2d86d932a239 1716 r-other-undocumeantit-sylly.nl_0.1-2-1.debian.tar.xz
+ b5f3911f348b47e74ab33ac933df031ac2e7d93a 1106 r-other-undocumeantit-sylly.nl_0.1-2-1.dsc
+ 4d4ed488ac9c358e1df00597a5e630ebdccdad4f 87240 r-other-undocumeantit-sylly.nl_0.1-2.orig.tar.xz
+ 4629d2a5ba850219e9252286cd4ee0170436e366 1704 r-other-undocumeantit-sylly.nl_0.1-2-1.debian.tar.xz
 Checksums-Sha256:
- 2de188cf621a28fa1fad694e2874570bbd015b7a2e54ed027bd3834ab9ef5423 1137 r-other-undocumeantit-sylly.nl_0.1-2-1.dsc
- ba4b2fc68fbf542926210fe449377a10dd403517e85c9071edc367e78cf16594 87192 r-other-undocumeantit-sylly.nl_0.1-2.orig.tar.xz
- 57fe6f8cd4bcde1d4137ff06d4d83912b6230d52defcdd3fea910cba47e5137b 1716 r-other-undocumeantit-sylly.nl_0.1-2-1.debian.tar.xz
+ 06a9f53997e9e1b54b4695b54cae1b7a733705441f62ff0cc769a71de685280e 1106 r-other-undocumeantit-sylly.nl_0.1-2-1.dsc
+ 73098b33e08c84d3f31840f142aaa875934f450d53d4f3da5ed03b39db565f07 87240 r-other-undocumeantit-sylly.nl_0.1-2.orig.tar.xz
+ 9eb928314a0626a6e8752cbb141ba938c384cc0979d4e1a07c4d3fd3ac138e4f 1704 r-other-undocumeantit-sylly.nl_0.1-2-1.debian.tar.xz
 Checksums-Sha512:
- 8ccd079900f46309b4ce46f8eda24633d881ba0489cd85aa9efa7e8ef2f7a73efa0036d52b28891db4d69997c760941e7e9fdd459f1afc48e5efd7194026040f 1137 r-other-undocumeantit-sylly.nl_0.1-2-1.dsc
- a301fe5a3d359140d87c467af1467d8ca6d27a7e710dcef76d6a2c4606cf539e589d8d5144c4ca2585f97dce3c839a88cd349d80562cb4db6d5f6b7b45c189ee 87192 r-other-undocumeantit-sylly.nl_0.1-2.orig.tar.xz
- f329d3bd71fa45fcbcf8b558e713480c0da72a4142c942c6d3163ced91703f8cf0e45ff434b5a7fa9eb087df9ffb02fe28f027c3c0eba2c2251f0d0b6e5c64a4 1716 r-other-undocumeantit-sylly.nl_0.1-2-1.debian.tar.xz
+ 701a196ad45c4db4bfaf347dacde7da03cc685b1ffedeae6041bc4ef3796084038eb2cbd58089171e27e85d8cb758296f97d45e04dd80c375fed86644d52d7fb 1106 r-other-undocumeantit-sylly.nl_0.1-2-1.dsc
+ ee5c6e43c45ab68d323651dbdb7eaa0fb636ca25bedb51c0c1f231ed08b678dcefd1a48ceb050ecc2597b1d72ed7149a38e734b33eea80e153c231c58f9424f2 87240 r-other-undocumeantit-sylly.nl_0.1-2.orig.tar.xz
+ d4e7adbf0cbf42426799ddc46beec6175120054cbc8fed2e43a3387731be2d2a77296c4f61199fd00156bd71515662bfe4ff9d4fcb70684a66798cac283ec3bb 1704 r-other-undocumeantit-sylly.nl_0.1-2-1.debian.tar.xz
 

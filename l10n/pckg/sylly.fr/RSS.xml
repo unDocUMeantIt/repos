@@ -5,9 +5,9 @@
 			sylly.fr
 		</title>
 		<link>
-			https://undocumeantit.github.io/repos/sylly_langpacks/pckg/sylly.fr
+			https://undocumeantit.github.io/repos/l10n/pckg/sylly.fr
 		</link>
-		<atom:link href="https://undocumeantit.github.io/repos/sylly_langpacks/pckg/sylly.fr/RSS.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://undocumeantit.github.io/repos/l10n/pckg/sylly.fr/RSS.xml" rel="self" type="application/rss+xml" />
 		<description>
 			<![CDATA[ 
 				Adds support for the French language to the 'sylly' package. Due to some restrictions on CRAN, the full package sources are only available from the project homepage. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please consider subscribing to the koRpus-dev mailing list (&lt;http://korpusml.reaktanz.de&gt;). 
@@ -21,13 +21,13 @@
 				Changes in sylly.fr version 0.1-2
 			</title>
 			<link>
-				https://undocumeantit.github.io/repos/sylly_langpacks/pckg/sylly.fr
+				https://undocumeantit.github.io/repos/l10n/pckg/sylly.fr
 			</link>
 			<pubDate>
-				Wed, 13 Sep 2017 00:00:00 +0000
+				Mon, 02 Oct 2017 00:00:00 +0000
 			</pubDate>
 			<guid isPermaLink="false">
-				sylly.fr0.1-2(2017-09-13)
+				sylly.fr0.1-2(2017-10-02)
 			</guid>
 			<description>
 				<![CDATA[ 
@@ -37,7 +37,12 @@
 									<ul>
 										<li>
 											<p>
-												initial release on CRAN
+												initial release via l10n repo
+											</p>
+										</li>
+										<li>
+											<p>
+												changed respective references and URLs accordingly
 											</p>
 										</li>
 									</ul> 
@@ -49,7 +54,7 @@
 				Changes in sylly.fr version 0.1-1
 			</title>
 			<link>
-				https://undocumeantit.github.io/repos/sylly_langpacks/pckg/sylly.fr
+				https://undocumeantit.github.io/repos/l10n/pckg/sylly.fr
 			</link>
 			<pubDate>
 				Sat, 10 Jun 2017 00:00:00 +0000

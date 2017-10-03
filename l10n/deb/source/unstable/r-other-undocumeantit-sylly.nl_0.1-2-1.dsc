@@ -3,18 +3,18 @@ Source: r-other-undocumeantit-sylly.nl
 Binary: r-other-undocumeantit-sylly.nl
 Architecture: all
 Version: 0.1-2-1
-Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
 Homepage: http://reaktanz.de/?c=hacking&s=koRpus
 Standards-Version: 3.9.3.1
-Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly | r-other-undocumeantit-sylly
+Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly
 Package-List:
  r-other-undocumeantit-sylly.nl deb gnu-r optional arch=all
 Checksums-Sha1:
- a6e109aac9fe20929ca55a398311c7f8c503ea33 87192 r-other-undocumeantit-sylly.nl_0.1-2.orig.tar.xz
- 7fbbd5c40ec432634c7f325e9ede2d86d932a239 1716 r-other-undocumeantit-sylly.nl_0.1-2-1.debian.tar.xz
+ 4d4ed488ac9c358e1df00597a5e630ebdccdad4f 87240 r-other-undocumeantit-sylly.nl_0.1-2.orig.tar.xz
+ 4629d2a5ba850219e9252286cd4ee0170436e366 1704 r-other-undocumeantit-sylly.nl_0.1-2-1.debian.tar.xz
 Checksums-Sha256:
- ba4b2fc68fbf542926210fe449377a10dd403517e85c9071edc367e78cf16594 87192 r-other-undocumeantit-sylly.nl_0.1-2.orig.tar.xz
- 57fe6f8cd4bcde1d4137ff06d4d83912b6230d52defcdd3fea910cba47e5137b 1716 r-other-undocumeantit-sylly.nl_0.1-2-1.debian.tar.xz
+ 73098b33e08c84d3f31840f142aaa875934f450d53d4f3da5ed03b39db565f07 87240 r-other-undocumeantit-sylly.nl_0.1-2.orig.tar.xz
+ 9eb928314a0626a6e8752cbb141ba938c384cc0979d4e1a07c4d3fd3ac138e4f 1704 r-other-undocumeantit-sylly.nl_0.1-2-1.debian.tar.xz
 Files:
- 91e30ca6e39839a909c9f877bb662bf0 87192 r-other-undocumeantit-sylly.nl_0.1-2.orig.tar.xz
- 32c759886d1db367ebf93a241fed5c99 1716 r-other-undocumeantit-sylly.nl_0.1-2-1.debian.tar.xz
+ 05661d850d05976493bd3bdfbcae549c 87240 r-other-undocumeantit-sylly.nl_0.1-2.orig.tar.xz
+ b20a0a39148cac590e76ac783e8ea799 1704 r-other-undocumeantit-sylly.nl_0.1-2-1.debian.tar.xz

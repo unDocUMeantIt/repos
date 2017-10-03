@@ -16,46 +16,46 @@ Package: sylly.de
 Version: 0.1-2
 Depends: R (>= 3.1),sylly
 License: GPL (>= 3)
-MD5sum: 375eb4ac558b72b530e5660b588283a5
+MD5sum: 2fad57fedc3e569bb493d0db2f3ac587
 
 Package: sylly.en
 Version: 0.1-2
 Depends: R (>= 3.1),sylly
 License: GPL (>= 3)
-MD5sum: 1f5e3fe57e33500580b79b3c7f6b384f
+MD5sum: 8bc393b6e9a92e1b699a346a4b66fa0f
 
 Package: sylly.es
 Version: 0.1-2
 Depends: R (>= 3.1),sylly
 License: GPL (>= 3)
-MD5sum: 3cfb6cecc0eb39eda492867c960a45a0
+MD5sum: 90b8215053378d59c081358480ac636d
 
 Package: sylly.fr
 Version: 0.1-2
 Depends: R (>= 3.1),sylly
 License: GPL (>= 3)
-MD5sum: 0d7bf643832ca16aa7ae69e7006da63f
+MD5sum: c6f4135d3ae60f4afbedb54d341f4ef1
 
 Package: sylly.it
 Version: 0.1-2
 Depends: R (>= 3.1),sylly
 License: GPL (>= 3)
-MD5sum: f771eca86db6ac82d340d2aa036b23c7
+MD5sum: 921f345a29735c812a8fa52067a95cd5
 
 Package: sylly.nl
 Version: 0.1-2
 Depends: R (>= 3.1),sylly
 License: GPL (>= 3)
-MD5sum: 8b1e45daef0ef4c976343155dd7ccab5
+MD5sum: d655e3f3a833525e8c3a8561f9bb042a
 
 Package: sylly.pt
 Version: 0.1-2
 Depends: R (>= 3.1),sylly
 License: GPL (>= 3)
-MD5sum: 32fb563c5a0fbd318571cbb258937fcf
+MD5sum: 12b186c2a48535c5b71d07eecebeb9b2
 
 Package: sylly.ru
 Version: 0.1-2
 Depends: R (>= 3.1),sylly
 License: GPL (>= 3)
-MD5sum: ca5434b9228443efd88c66a5bc9c895a
+MD5sum: 24b05bcd8e53f5ff7f0175d532f1b3b1
