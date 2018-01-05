@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Fri, 05 Jan 2018 01:09:58 +0100
+Source: r-other-undocumeantit-korpus.lang.es
+Binary: r-other-undocumeantit-korpus.lang.es
+Architecture: all
+Version: 0.1-1-1
+Distribution: unstable
+Urgency: low
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Changed-By: Meik Michalke <meik.michalke@hhu.de>
+Description:
+ r-other-undocumeantit-korpus.lang.es - GNU R package "Language Support for 'koRpus' Package: Spanish"
+Changes:
+ r-other-undocumeantit-korpus.lang.es (0.1-1-1) unstable; urgency=low
+ .
+   * new upstream release
+Checksums-Sha1:
+ 9193f36c24f8366e84629223924873bae1d5ce8a 15128 r-other-undocumeantit-korpus.lang.es_0.1-1-1_all.deb
+Checksums-Sha256:
+ eeda154f20c50c34dada213450d1dff3b6a3777f4b5c5227dca7e360a3dcb1df 15128 r-other-undocumeantit-korpus.lang.es_0.1-1-1_all.deb
+Files:
+ f3ab23fb2d0dcf468ac479da0de93844 15128 gnu-r optional r-other-undocumeantit-korpus.lang.es_0.1-1-1_all.deb

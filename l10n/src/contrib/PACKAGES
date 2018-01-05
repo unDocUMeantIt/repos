@@ -1,3 +1,43 @@
+Package: koRpus.lang.de
+Version: 0.1-1
+Depends: R (>= 3.1),koRpus (>= 0.11-2)
+Imports: methods,sylly.de
+License: GPL (>= 3)
+MD5sum: 86c6e404317415496e98ccb501ee50b7
+NeedsCompilation: no
+
+Package: koRpus.lang.en
+Version: 0.1-1
+Depends: R (>= 3.1),koRpus (>= 0.11-2)
+Imports: methods,sylly.en
+License: GPL (>= 3)
+MD5sum: 1d44af190bc02d65a497b1385fa36bb0
+NeedsCompilation: no
+
+Package: koRpus.lang.es
+Version: 0.1-1
+Depends: R (>= 3.1),koRpus (>= 0.11-2)
+Imports: methods,sylly.es
+License: GPL (>= 3)
+MD5sum: 651ac773c580c8444093c0cf520b625c
+NeedsCompilation: no
+
+Package: koRpus.lang.fr
+Version: 0.1-1
+Depends: R (>= 3.1),koRpus (>= 0.11-2)
+Imports: methods,sylly.fr
+License: GPL (>= 3)
+MD5sum: e1fd1de02838347c8b26cb029d93933a
+NeedsCompilation: no
+
+Package: koRpus.lang.it
+Version: 0.1-1
+Depends: R (>= 3.1),koRpus (>= 0.11-2)
+Imports: methods,sylly.it
+License: GPL (>= 3)
+MD5sum: 031007100867564f424c18dca304a45c
+NeedsCompilation: no
+
 Package: koRpus.lang.nl
 Version: 0.01-4
 Depends: R (>= 2.10.0),koRpus (>= 0.11-1)
@@ -12,6 +52,14 @@ Depends: R (>= 2.10.0),koRpus (>= 0.11-1)
 Imports: methods,sylly.pt
 License: GPL (>= 3)
 MD5sum: fcb0f476455041e6e972180e766d511f
+NeedsCompilation: no
+
+Package: koRpus.lang.ru
+Version: 0.1-1
+Depends: R (>= 3.1),koRpus (>= 0.11-2)
+Imports: methods,sylly.ru
+License: GPL (>= 3)
+MD5sum: ecf9e576636c586aac8f62aa1848204d
 NeedsCompilation: no
 
 Package: sylly.de

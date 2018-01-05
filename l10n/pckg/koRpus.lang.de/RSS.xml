@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>
+			koRpus.lang.de
+		</title>
+		<link>
+			https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.de
+		</link>
+		<atom:link href="https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.de/RSS.xml" rel="self" type="application/rss+xml" />
+		<description>
+			<![CDATA[ 
+				Adds support for the German language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please consider subscribing to the koRpus-dev mailing list (&lt;http://korpusml.reaktanz.de&gt;). 
+			]]>
+		</description>
+		<generator>
+			roxyPackage (0.06-1)
+		</generator>
+		<item>
+			<title>
+				Changes in koRpus.lang.de version 0.1-1
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.de
+			</link>
+			<pubDate>
+				Fri, 05 Jan 2018 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				koRpus.lang.de0.1-1(2018-01-05)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+										changed
+									</h4>
+									<ul>
+										<li>
+											<p>
+												initial release as standalone package
+											</p>
+										</li>
+									</ul> 
+				]]>
+			</description>
+		</item>
+	</channel>
+</rss>
