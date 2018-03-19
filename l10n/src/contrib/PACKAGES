@@ -76,6 +76,13 @@ License: GPL (>= 3)
 MD5sum: 6e83a470837a4b267c8c2099bfcdc8ea
 NeedsCompilation: no
 
+Package: sylly.en
+Version: 0.1-3
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: 490e6f76985aa5379f392b08eea68319
+NeedsCompilation: no
+
 Package: sylly.es
 Version: 0.1-2
 Depends: R (>= 3.1),sylly

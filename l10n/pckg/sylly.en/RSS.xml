@@ -14,8 +14,41 @@
 			]]>
 		</description>
 		<generator>
-			roxyPackage (0.05-4)
+			roxyPackage (0.06-1)
 		</generator>
+		<item>
+			<title>
+				Changes in sylly.en version 0.1-3
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/sylly.en
+			</link>
+			<pubDate>
+				Mon, 19 Mar 2018 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				sylly.en0.1-3(2018-03-19)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+										changed
+									</h4>
+									<ul>
+										<li>
+											<p>
+												removed \dontrun{} from exmple
+											</p>
+										</li>
+										<li>
+											<p>
+												updated README.md
+											</p>
+										</li>
+									</ul> 
+				]]>
+			</description>
+		</item>
 		<item>
 			<title>
 				Changes in sylly.en version 0.1-2

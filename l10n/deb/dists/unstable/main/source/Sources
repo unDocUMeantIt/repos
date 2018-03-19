@@ -462,6 +462,35 @@ Checksums-Sha512:
  2f0811fd0d4a610db61d202d02bd2c8925f4c46a34828e34958216a78e37b63e5fd6630c75f91d0c77b259852f6fc28b38f44d8d9bc2af08614b6378fcbe1604 18468 r-other-undocumeantit-korpus.lang.ru_0.1-1.orig.tar.xz
  ec66d6c8ab00d6d6e3205fe9d4de72052ab7d68ab0172e8755798d599f9d8647a7642e4b9ba94361918edc725ab7d02f6d6c2d7809202b36e1c37a7ecb4cd309 1656 r-other-undocumeantit-korpus.lang.ru_0.1-1-1.debian.tar.xz
 
+Package: r-other-undocumeantit-sylly.en
+Format: 3.0 (quilt)
+Binary: r-other-undocumeantit-sylly.en
+Architecture: all
+Version: 0.1-3-1
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Standards-Version: 3.9.3.1
+Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-sylly | r-other-reaktanz-sylly
+Homepage: http://reaktanz.de/?c=hacking&s=koRpus
+Directory: source/unstable
+Package-List:
+ r-other-undocumeantit-sylly.en deb gnu-r optional arch=all
+Files:
+ 6a1ae28e51db1acab98d80ef764a4573 1109 r-other-undocumeantit-sylly.en_0.1-3-1.dsc
+ d6c1d764f4822e2a4e3ebfc30afaf0ff 264476 r-other-undocumeantit-sylly.en_0.1-3.orig.tar.xz
+ c244c8997bfaccc636692afbb1513213 1756 r-other-undocumeantit-sylly.en_0.1-3-1.debian.tar.xz
+Checksums-Sha1:
+ a07dee8f175c5da1dab13515efea59bbd1b6c3ab 1109 r-other-undocumeantit-sylly.en_0.1-3-1.dsc
+ cf6d72a8789dcb2ece4b789772c0e8415df6c4fa 264476 r-other-undocumeantit-sylly.en_0.1-3.orig.tar.xz
+ 9e4a138f19a8d29259230f724201262cbae9ae24 1756 r-other-undocumeantit-sylly.en_0.1-3-1.debian.tar.xz
+Checksums-Sha256:
+ cab0f34da9b674832455daf7b8c7d02eef2fde8c89265197bbef1aa1a03296f4 1109 r-other-undocumeantit-sylly.en_0.1-3-1.dsc
+ b30b9a1c0f7c11d22fbeccad48c8352a067e72241be1ff3a0e33a4d742f13342 264476 r-other-undocumeantit-sylly.en_0.1-3.orig.tar.xz
+ b7da63daffeb6836a24590a836d6382a56b05b6f54e9dd76597c8eca251c9362 1756 r-other-undocumeantit-sylly.en_0.1-3-1.debian.tar.xz
+Checksums-Sha512:
+ 147ed3990c42f61ad2d8ea3e34c35d746b7992bcd44279221df03648b4b99c9bb1d16ad1c8cd93eb6fa6407b19b18a38cf4da59601bd23db16c928d15ae33652 1109 r-other-undocumeantit-sylly.en_0.1-3-1.dsc
+ d6ee43ab7ab0b4be736af8e82570a1fa1eb0b0973d55be0dc3589eec16174786d7734e194de392c6a4a595e7050153b23c7083e7df3846e8e386d594d1ba77f9 264476 r-other-undocumeantit-sylly.en_0.1-3.orig.tar.xz
+ 8992480fd78676c1016be8ce05e903a30b890d0bd3aa7911452115a3960421a5e71b57bd9e6b062ab107e6a0001e71993e7cbbecb52943a82a83a4a0853a18b7 1756 r-other-undocumeantit-sylly.en_0.1-3-1.debian.tar.xz
+
 Package: r-other-undocumeantit-sylly.nl
 Format: 3.0 (quilt)
 Binary: r-other-undocumeantit-sylly.nl
