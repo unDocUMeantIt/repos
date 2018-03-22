@@ -12,6 +12,13 @@ Imports: methods,sylly.en
 License: GPL (>= 3)
 MD5sum: d9c51f89472edf03d7596b57301f75f8
 
+Package: koRpus.lang.en
+Version: 0.1-2
+Depends: R (>= 3.1),koRpus (>= 0.10-2)
+Imports: methods,sylly.en
+License: GPL (>= 3)
+MD5sum: 8e16db74a775a9fdc9c836f37be39732
+
 Package: koRpus.lang.es
 Version: 0.1-1
 Depends: R (>= 3.1),koRpus (>= 0.11-2)

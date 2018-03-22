@@ -7,6 +7,66 @@
 
 <h2>News for Package 'koRpus.lang.en'</h2>
 
+<h3>Changes in koRpus.lang.en version 0.1-2 (2018-03-20)</h3>
+
+
+
+<h4>fixed</h4>
+
+
+<ul>
+<li><p> package name in license header
+</p>
+</li></ul>
+
+
+
+
+<h4>changed</h4>
+
+
+<ul>
+<li><p> updated README.md
+</p>
+</li></ul>
+
+
+
+
+<h4>added</h4>
+
+
+<ul>
+<li><p> support optional arguments for <code>koRpus::set.lang.support()</code>
+</p>
+</li></ul>
+
+
+
+
+<h4>temporary</h4>
+
+
+<ul>
+<li><p> this is planned to be a CRAN-only transitional release. since this
+package needs koRpus &gt;=0.11-2 but the CRAN version (0.10-2) should be upgraded
+after this package was already accepted, we'll work around this by
+deactivating functionality unavailable to older koRpus versions, if such an old
+package is used
+</p>
+</li>
+<li><p> temporarily lowered koRpus dependency to 0.10-2
+</p>
+</li>
+<li><p> added a check for koRpus version to <code>.onAttach()</code>, so that the language
+support which is already present won't be tampered with; i.e., you can safely
+load this package with older koRpus packages, it just won't add anything
+</p>
+</li></ul>
+
+
+
+
 <h3>Changes in koRpus.lang.en version 0.1-1 (2018-01-05)</h3>
 
 
@@ -21,5 +81,5 @@
 
 
 
-<hr /><div style="text-align: center;">[Package <em>koRpus.lang.en</em> version 0.1-1 ]</div>
+<hr /><div style="text-align: center;">[Package <em>koRpus.lang.en</em> version 0.1-2 ]</div>
 </body></html>

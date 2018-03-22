@@ -288,6 +288,35 @@ Checksums-Sha512:
  290aca8a775d2e78cbec44deec3cbc8442a192aed558c431b36751e70a5e8b281cb053ac805d43f63492ac857a12a09331e5db81387d1a57b33499bb8ae569b9 6716 r-other-undocumeantit-sylly.it_0.1-2.orig.tar.xz
  58da0a954a71fafb296df8ea13165fc0a18bbc6958a3240c2ccc1e1265045a26d65f93828728a4b3dac8672429bc31e3bd86cbcd61f9badd729c747ae4d536a2 1712 r-other-undocumeantit-sylly.it_0.1-2-1.debian.tar.xz
 
+Package: r-other-undocumeantit-korpus.lang.en
+Format: 3.0 (quilt)
+Binary: r-other-undocumeantit-korpus.lang.en
+Architecture: all
+Version: 0.1-2-1
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Standards-Version: 3.9.3.1
+Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-korpus (>= 0.10-2) | r-other-reaktanz-korpus (>= 0.10-2), r-cran-sylly.en | r-other-reaktanz-sylly.en | r-other-undocumeantit-sylly.en
+Homepage: https://reaktanz.de/?c=hacking&s=koRpus
+Directory: source/unstable
+Package-List:
+ r-other-undocumeantit-korpus.lang.en deb gnu-r optional arch=all
+Files:
+ 0ea0c5a1abf1cef56e1d6d528123177e 1265 r-other-undocumeantit-korpus.lang.en_0.1-2-1.dsc
+ cb30d8d32840779b0aa0f533d73998d8 16192 r-other-undocumeantit-korpus.lang.en_0.1-2.orig.tar.xz
+ c378258815e9418328fcb0fa55e81471 1684 r-other-undocumeantit-korpus.lang.en_0.1-2-1.debian.tar.xz
+Checksums-Sha1:
+ eb6e1ed09680ffbe9543b1026094a3a0714f5193 1265 r-other-undocumeantit-korpus.lang.en_0.1-2-1.dsc
+ de07db9efeb684b905a27ab4343c2afefb2c49fa 16192 r-other-undocumeantit-korpus.lang.en_0.1-2.orig.tar.xz
+ bc90ff6394222ec86bd6a0eab0b03041a260d4e1 1684 r-other-undocumeantit-korpus.lang.en_0.1-2-1.debian.tar.xz
+Checksums-Sha256:
+ 90760aa7e6fb8e361e56866849c4ed15f3fa6e3964c3db5ce03ff4c4cca26219 1265 r-other-undocumeantit-korpus.lang.en_0.1-2-1.dsc
+ 6b8c33192b4adb7307d55136a2d7852d3f1e5c0c5d786ec63ae57fce2fe2b628 16192 r-other-undocumeantit-korpus.lang.en_0.1-2.orig.tar.xz
+ 2560603dba5534f1a3e35c8f8f2f56d4fc18a1dddb448ba108e81247d475096d 1684 r-other-undocumeantit-korpus.lang.en_0.1-2-1.debian.tar.xz
+Checksums-Sha512:
+ e1c835349ceaf544baf15c75a066341061e011c15c6ed2e6a3c26305d260586d95fc3a7421440475be74d3ff2c909541f802997d151843792f1f640851244661 1265 r-other-undocumeantit-korpus.lang.en_0.1-2-1.dsc
+ a54029d2867893f33710b6374784ce017c492e781e8e770dfdf24bbc5548828018c9cab9975b1f0504d0be942889f096af710c910e21726d1c1d425df9a3d2e6 16192 r-other-undocumeantit-korpus.lang.en_0.1-2.orig.tar.xz
+ d819381a05e516593b0e81224b5509931d2aca7e723dd15948dc0a7dfaf825fe6a14cdcd1dde19e4af91a35a988aa563566f81eb534e62a5e96dad1c20b3012a 1684 r-other-undocumeantit-korpus.lang.en_0.1-2-1.debian.tar.xz
+
 Package: undocumeantit-keyring
 Format: 3.0 (quilt)
 Binary: undocumeantit-keyring

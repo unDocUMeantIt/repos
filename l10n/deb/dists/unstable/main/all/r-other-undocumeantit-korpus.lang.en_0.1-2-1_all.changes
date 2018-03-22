@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Thu, 22 Mar 2018 01:38:12 +0100
+Source: r-other-undocumeantit-korpus.lang.en
+Binary: r-other-undocumeantit-korpus.lang.en
+Architecture: all
+Version: 0.1-2-1
+Distribution: unstable
+Urgency: low
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Changed-By: Meik Michalke <meik.michalke@hhu.de>
+Description:
+ r-other-undocumeantit-korpus.lang.en - GNU R package "Language Support for 'koRpus' Package:
+Changes:
+ r-other-undocumeantit-korpus.lang.en (0.1-2-1) unstable; urgency=low
+ .
+   * new upstream release
+Checksums-Sha1:
+ a6377de7f607b2c1ba732a9dd915fcc5798ab58c 15484 r-other-undocumeantit-korpus.lang.en_0.1-2-1_all.deb
+Checksums-Sha256:
+ fca3f47a7d26d9e6a91fe1a10de627760adc7e26098020a036b72a12a9a73336 15484 r-other-undocumeantit-korpus.lang.en_0.1-2-1_all.deb
+Files:
+ 8322ccf54527c513ae1f6f24a5a10985 15484 gnu-r optional r-other-undocumeantit-korpus.lang.en_0.1-2-1_all.deb
