@@ -1,0 +1,63 @@
+Package: koRpus.lang.de
+Version: 0.1-1
+Depends: R (>= 3.1),koRpus (>= 0.11-2)
+Imports: methods,sylly.de
+License: GPL (>= 3)
+
+Package: koRpus.lang.en
+Version: 0.1-2
+Depends: R (>= 3.1),koRpus (>= 0.10-2)
+Imports: methods,sylly.en
+License: GPL (>= 3)
+
+Package: koRpus.lang.es
+Version: 0.1-1
+Depends: R (>= 3.1),koRpus (>= 0.11-2)
+Imports: methods,sylly.es
+License: GPL (>= 3)
+
+Package: koRpus.lang.nl
+Version: 0.1-5
+Depends: R (>= 3.1),koRpus (>= 0.11-2)
+Imports: methods,sylly.nl
+License: GPL (>= 3)
+
+Package: sylly.de
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+
+Package: sylly.en
+Version: 0.1-3
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+
+Package: sylly.es
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+
+Package: sylly.fr
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+
+Package: sylly.it
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+
+Package: sylly.nl
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+
+Package: sylly.pt
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+
+Package: sylly.ru
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)

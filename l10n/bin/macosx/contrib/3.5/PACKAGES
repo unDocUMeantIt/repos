@@ -1,0 +1,75 @@
+Package: koRpus.lang.de
+Version: 0.1-1
+Depends: R (>= 3.1),koRpus (>= 0.11-2)
+Imports: methods,sylly.de
+License: GPL (>= 3)
+MD5sum: ae8c54cd6b94ee359bfe4e5a0e08bcf4
+
+Package: koRpus.lang.en
+Version: 0.1-2
+Depends: R (>= 3.1),koRpus (>= 0.10-2)
+Imports: methods,sylly.en
+License: GPL (>= 3)
+MD5sum: 097285c66bdf0a28cd72afbb246be0f3
+
+Package: koRpus.lang.es
+Version: 0.1-1
+Depends: R (>= 3.1),koRpus (>= 0.11-2)
+Imports: methods,sylly.es
+License: GPL (>= 3)
+MD5sum: babbdd121ccf804ada2f2571cd9ae3bc
+
+Package: koRpus.lang.nl
+Version: 0.1-5
+Depends: R (>= 3.1),koRpus (>= 0.11-2)
+Imports: methods,sylly.nl
+License: GPL (>= 3)
+MD5sum: 5a7fbe8b2574ce31d61163ca97b89eb2
+
+Package: sylly.de
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: c6c898bc8ac13d69586eefac3deaaa60
+
+Package: sylly.en
+Version: 0.1-3
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: 50f85e06ea5bb5ffd35037b3d9a54214
+
+Package: sylly.es
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: 25147f24957a21a5958b1f1a530a98e6
+
+Package: sylly.fr
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: f4025da2dd81faae39ce8c7b5f64dd65
+
+Package: sylly.it
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: dd864a09f66dd3e6cab64eaab91104cb
+
+Package: sylly.nl
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: 7157a9e927c35f50fb43e9d36ba54061
+
+Package: sylly.pt
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: 243a226719d37ac7e3e0a3c51e45b732
+
+Package: sylly.ru
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: 3ee2fc47ed3a3e59982594f9591d1a70

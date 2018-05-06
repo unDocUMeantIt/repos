@@ -1,5 +1,15 @@
 ChangeLog for package koRpus.lang.fr
 
+changes in version 0.1-2 (2018-02-20)
+unreleased:
+  - this release is under development
+fixed:
+  - package name in license header
+changed:
+  - updated README.md
+added:
+  - support optional arguments for koRpus::set.lang.support()
+
 changes in version 0.1-1 (2018-01-05)
 changed:
   - initial release as standalone package

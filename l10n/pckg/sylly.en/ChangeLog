@@ -1,5 +1,9 @@
 ChangeLog for package sylly.en
 
+changes in version 0.1-4 (2018-03-19)
+unreleased:
+  - this release is under development
+
 changes in version 0.1-3 (2018-03-19)
 changed:
   - removed \dontrun{} from exmple
