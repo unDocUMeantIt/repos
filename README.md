@@ -1,7 +1,5 @@
 # Package repositories
 
-[![Flattr this git repo](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=m.eik&url=https://github.com/unDocUMeantIt/repos&title=repos&language=en_GB&tags=github&category=software)
-
 This GitHub repository offers ready to install builds of some of my [R](https://r-project.org) projects. More precisely, the [l10n](https://undocumeantit.github.io/repos/l10n/index.html) repository hosts various language support packages for the [sylly](https://github.com/unDocUMeantIt/sylly) package. While sylly itself was released on CRAN, unfortunately its language packages could not be published there as well.
 
 ## Installation
