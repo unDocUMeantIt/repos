@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Wed, 27 Sep 2017 18:56:31 +0200
+Source: r-other-undocumeantit-sylly.de
+Binary: r-other-undocumeantit-sylly.de
+Architecture: all
+Version: 0.1-2-1
+Distribution: unstable
+Urgency: low
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Changed-By: m.eik michalke <meik.michalke@hhu.de>
+Description:
+ r-other-undocumeantit-sylly.de - GNU R package "Language Support for 'sylly' Package:
+Changes:
+ r-other-undocumeantit-sylly.de (0.1-2-1) unstable; urgency=low
+ .
+   * new upstream release
+Checksums-Sha1:
+ fdb2cff14fe6b6cbf29f0cddf86bd4a413668688 209478 r-other-undocumeantit-sylly.de_0.1-2-1_all.deb
+Checksums-Sha256:
+ f9daf40e49a272aef3e9ac1cd25831368e2fbb2b1d89e32eb82469605ae0ad57 209478 r-other-undocumeantit-sylly.de_0.1-2-1_all.deb
+Files:
+ 016cfa746f5cf9ea2f9b7d5e6cd1648d 209478 gnu-r optional r-other-undocumeantit-sylly.de_0.1-2-1_all.deb
