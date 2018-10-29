@@ -6,14 +6,6 @@ License: GPL (>= 3)
 MD5sum: 86c6e404317415496e98ccb501ee50b7
 NeedsCompilation: no
 
-Package: koRpus.lang.de
-Version: 0.1-2
-Depends: R (>= 3.1),koRpus (>= 0.11-2)
-Imports: methods,sylly.de
-License: GPL (>= 3)
-MD5sum: ac401d13776a6952141c188cad1534cc
-NeedsCompilation: no
-
 Package: koRpus.lang.en
 Version: 0.1-1
 Depends: R (>= 3.1),koRpus (>= 0.11-2)
@@ -30,28 +22,12 @@ License: GPL (>= 3)
 MD5sum: eb94ba7fd4248145ac04c9f525d9add3
 NeedsCompilation: no
 
-Package: koRpus.lang.en
-Version: 0.1-3
-Depends: R (>= 3.1),koRpus (>= 0.11-2)
-Imports: methods,sylly.en
-License: GPL (>= 3)
-MD5sum: 001af04a81a7a0b803c529c2227fd10d
-NeedsCompilation: no
-
 Package: koRpus.lang.es
 Version: 0.1-1
 Depends: R (>= 3.1),koRpus (>= 0.11-2)
 Imports: methods,sylly.es
 License: GPL (>= 3)
 MD5sum: 651ac773c580c8444093c0cf520b625c
-NeedsCompilation: no
-
-Package: koRpus.lang.es
-Version: 0.1-2
-Depends: R (>= 3.1),koRpus (>= 0.11-2)
-Imports: methods,sylly.es
-License: GPL (>= 3)
-MD5sum: ce723a560a9ddc0bf8366299925349cc
 NeedsCompilation: no
 
 Package: koRpus.lang.fr
@@ -62,28 +38,12 @@ License: GPL (>= 3)
 MD5sum: e1fd1de02838347c8b26cb029d93933a
 NeedsCompilation: no
 
-Package: koRpus.lang.fr
-Version: 0.1-2
-Depends: R (>= 3.1),koRpus (>= 0.11-2)
-Imports: methods,sylly.fr
-License: GPL (>= 3)
-MD5sum: 08d550926397d19fa8fec976c81328fa
-NeedsCompilation: no
-
 Package: koRpus.lang.it
 Version: 0.1-1
 Depends: R (>= 3.1),koRpus (>= 0.11-2)
 Imports: methods,sylly.it
 License: GPL (>= 3)
 MD5sum: 031007100867564f424c18dca304a45c
-NeedsCompilation: no
-
-Package: koRpus.lang.it
-Version: 0.1-2
-Depends: R (>= 3.1),koRpus (>= 0.11-2)
-Imports: methods,sylly.it
-License: GPL (>= 3)
-MD5sum: 4e9419cafce1d947cafd992e34e2ad93
 NeedsCompilation: no
 
 Package: koRpus.lang.nl
@@ -94,28 +54,12 @@ License: GPL (>= 3)
 MD5sum: 747ae799e1c8dde9b8638bbdf5b1c9a7
 NeedsCompilation: no
 
-Package: koRpus.lang.nl
-Version: 0.1-5
-Depends: R (>= 3.1),koRpus (>= 0.11-2)
-Imports: methods,sylly.nl
-License: GPL (>= 3)
-MD5sum: 03d25d91d47770e2e982b3b056b49d3b
-NeedsCompilation: no
-
 Package: koRpus.lang.pt
 Version: 0.01-2
 Depends: R (>= 2.10.0),koRpus (>= 0.11-1)
 Imports: methods,sylly.pt
 License: GPL (>= 3)
 MD5sum: fcb0f476455041e6e972180e766d511f
-NeedsCompilation: no
-
-Package: koRpus.lang.pt
-Version: 0.1-3
-Depends: R (>= 3.1),koRpus (>= 0.11-2)
-Imports: methods,sylly.pt
-License: GPL (>= 3)
-MD5sum: 1534f5942b0fe05135c2e0ebe8706b1b
 NeedsCompilation: no
 
 Package: koRpus.lang.ru
@@ -126,26 +70,11 @@ License: GPL (>= 3)
 MD5sum: ecf9e576636c586aac8f62aa1848204d
 NeedsCompilation: no
 
-Package: koRpus.lang.ru
-Version: 0.1-2
-Depends: R (>= 3.1),koRpus (>= 0.11-2)
-Imports: methods,sylly.ru
-License: GPL (>= 3)
-MD5sum: 5c2b38acd8c26139df65cc3057937bbe
-NeedsCompilation: no
-
 Package: sylly.de
 Version: 0.1-2
 Depends: R (>= 3.1),sylly
 License: GPL (>= 3)
 MD5sum: 842a90c911af27de6e6e9e55e0880670
-NeedsCompilation: no
-
-Package: sylly.de
-Version: 0.1-3
-Depends: R (>= 3.1),sylly
-License: GPL (>= 3)
-MD5sum: a901c3dce242fc7c189bc41d7103d182
 NeedsCompilation: no
 
 Package: sylly.en
@@ -169,25 +98,11 @@ License: GPL (>= 3)
 MD5sum: 61469835d0836cc68fea5f677bdc1171
 NeedsCompilation: no
 
-Package: sylly.es
-Version: 0.1-3
-Depends: R (>= 3.1),sylly
-License: GPL (>= 3)
-MD5sum: 39a9cb7c9a66c6d2a26ace88b6b99f65
-NeedsCompilation: no
-
 Package: sylly.fr
 Version: 0.1-2
 Depends: R (>= 3.1),sylly
 License: GPL (>= 3)
 MD5sum: 0930dcc09acb8a5ca92caa6fb658c3b6
-NeedsCompilation: no
-
-Package: sylly.fr
-Version: 0.1-3
-Depends: R (>= 3.1),sylly
-License: GPL (>= 3)
-MD5sum: fd2f0d50c4ca4a5b3535c84bf5aa0169
 NeedsCompilation: no
 
 Package: sylly.it
@@ -197,25 +112,11 @@ License: GPL (>= 3)
 MD5sum: e0a88ee9084c5eadea74a90341234600
 NeedsCompilation: no
 
-Package: sylly.it
-Version: 0.1-3
-Depends: R (>= 3.1),sylly
-License: GPL (>= 3)
-MD5sum: 3132a8f14a8bdc0ebbe2d8604c141541
-NeedsCompilation: no
-
 Package: sylly.nl
 Version: 0.1-2
 Depends: R (>= 3.1),sylly
 License: GPL (>= 3)
 MD5sum: ad40f302c9c2adcdd480f5d3d650851e
-NeedsCompilation: no
-
-Package: sylly.nl
-Version: 0.1-3
-Depends: R (>= 3.1),sylly
-License: GPL (>= 3)
-MD5sum: 93a236d6c86c620e03f6cdb65e9a5d94
 NeedsCompilation: no
 
 Package: sylly.pt
@@ -225,23 +126,9 @@ License: GPL (>= 3)
 MD5sum: 76c7aaef9c682517cad7ccbb943cf8a5
 NeedsCompilation: no
 
-Package: sylly.pt
-Version: 0.1-3
-Depends: R (>= 3.1),sylly
-License: GPL (>= 3)
-MD5sum: addc7ca21fce3c6cdb41037b4ea33426
-NeedsCompilation: no
-
 Package: sylly.ru
 Version: 0.1-2
 Depends: R (>= 3.1),sylly
 License: GPL (>= 3)
 MD5sum: 70b03acbb1173771acc585316efb1606
-NeedsCompilation: no
-
-Package: sylly.ru
-Version: 0.1-3
-Depends: R (>= 3.1),sylly
-License: GPL (>= 3)
-MD5sum: 5f7c8882b0f75eac00d05edae5d588ae
 NeedsCompilation: no

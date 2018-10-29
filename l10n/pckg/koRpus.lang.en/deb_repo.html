@@ -24,10 +24,25 @@
   <pre class="repo">
    &nbsp;
  # for binary packages:
- deb https://undocumeantit.github.io/repos/l10n/debR35 unstable main
+ deb [signed-by=/usr/share/keyrings/undocumeantit-keyring.asc] https://undocumeantit.github.io/repos/l10n/deb unstable main
  # for source packages:
- deb-src https://undocumeantit.github.io/repos/l10n/debR35 unstable main
+ deb-src [signed-by=/usr/share/keyrings/undocumeantit-keyring.asc] https://undocumeantit.github.io/repos/l10n/deb unstable main
   </pre>
+  <p>
+   You might have to temporarily replace    <code>
+    deb
+   </code>
+   with    <code>
+    deb [trusted=yes]
+   </code>
+   in your    <code>
+    other-undocumeantit.list
+   </code>
+   file until after you installed the following keyring package, or apt might refuse to install it because it doesn't know the included OpenPGP key yet. Make sure you remove the    <code>
+    [trusted=yes]
+   </code>
+   after the keyring was successfully installed!
+  </p>
   <h4>
    Add OpenPGP key
   </h4>
@@ -57,7 +72,7 @@
   </p>
   <ul>
    <li>
-    <a href="../../debR35/dists/unstable/main/all/r-other-undocumeantit-korpus.lang.en_0.1-2-1_all.deb">
+    <a href="../../deb/dists/unstable/main/all/r-other-undocumeantit-korpus.lang.en_0.1-2-1_all.deb">
      r-other-undocumeantit-korpus.lang.en_0.1-2-1_all.deb
     </a>
    </li>
@@ -67,17 +82,17 @@
   </p>
   <ul>
    <li>
-    <a href="../../debR35/source/unstable/r-other-undocumeantit-korpus.lang.en_0.1-2.orig.tar.xz">
+    <a href="../../deb/source/unstable/r-other-undocumeantit-korpus.lang.en_0.1-2.orig.tar.xz">
      r-other-undocumeantit-korpus.lang.en_0.1-2.orig.tar.xz
     </a>
    </li>
    <li>
-    <a href="../../debR35/source/unstable/r-other-undocumeantit-korpus.lang.en_0.1-2-1.debian.tar.xz">
+    <a href="../../deb/source/unstable/r-other-undocumeantit-korpus.lang.en_0.1-2-1.debian.tar.xz">
      r-other-undocumeantit-korpus.lang.en_0.1-2-1.debian.tar.xz
     </a>
    </li>
    <li>
-    <a href="../../debR35/source/unstable/r-other-undocumeantit-korpus.lang.en_0.1-2-1.dsc">
+    <a href="../../deb/source/unstable/r-other-undocumeantit-korpus.lang.en_0.1-2-1.dsc">
      r-other-undocumeantit-korpus.lang.en_0.1-2-1.dsc
     </a>
    </li>
