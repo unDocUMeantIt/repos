@@ -24,10 +24,25 @@
   <pre class="repo">
    &nbsp;
  # for binary packages:
- deb https://undocumeantit.github.io/repos/l10n/debR35 unstable main
+ deb [signed-by=/usr/share/keyrings/undocumeantit-keyring.asc] https://undocumeantit.github.io/repos/l10n/debR35 unstable main
  # for source packages:
- deb-src https://undocumeantit.github.io/repos/l10n/debR35 unstable main
+ deb-src [signed-by=/usr/share/keyrings/undocumeantit-keyring.asc] https://undocumeantit.github.io/repos/l10n/debR35 unstable main
   </pre>
+  <p>
+   You might have to temporarily replace    <code>
+    deb
+   </code>
+   with    <code>
+    deb [trusted=yes]
+   </code>
+   in your    <code>
+    other-undocumeantit.list
+   </code>
+   file until after you installed the following keyring package, or apt might refuse to install it because it doesn't know the included OpenPGP key yet. Make sure you remove the    <code>
+    [trusted=yes]
+   </code>
+   after the keyring was successfully installed!
+  </p>
   <h4>
    Add OpenPGP key
   </h4>
