@@ -10,12 +10,130 @@
 		<atom:link href="https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.en/RSS.xml" rel="self" type="application/rss+xml" />
 		<description>
 			<![CDATA[ 
-				Adds support for the English language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please consider subscribing to the koRpus-dev mailing list (&lt;http://korpusml.reaktanz.de&gt;). 
+				Adds support for the English language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please consider subscribing to the koRpus-dev mailing list (<http://korpusml.reaktanz.de>). 
 			]]>
 		</description>
 		<generator>
-			roxyPackage (0.06-1)
+			roxyPackage (0.06-5)
 		</generator>
+		<item>
+			<title>
+				Changes in koRpus.lang.en version 0.1-3
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.en
+			</link>
+			<pubDate>
+				Mon, 13 May 2019 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				koRpus.lang.en0.1-3(2019-05-13)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+						changed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								reverted temporary transitional changes from 0.1-2
+							</p>
+						</li>
+					</ul>
+					<h4>
+						added
+					</h4>
+					<ul>
+						<li>
+							<p>
+								now also supports the BNC tagset (thanks to Elen Le Foll)
+							</p>
+						</li>
+						<li>
+							<p>
+								added missing PENN tags NNP, NNPS, and PRP$, and explained why koRpus defaults to the BNC definition for the conflicting tag PRP in the documentation.
+							</p>
+						</li>
+					</ul> 
+				]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				Changes in koRpus.lang.en version 0.1-2
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.en
+			</link>
+			<pubDate>
+				Tue, 20 Mar 2018 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				koRpus.lang.en0.1-2(2018-03-20)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+						fixed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								package name in license header
+							</p>
+						</li>
+					</ul>
+					<h4>
+						changed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								updated README.md
+							</p>
+						</li>
+					</ul>
+					<h4>
+						added
+					</h4>
+					<ul>
+						<li>
+							<p>
+								support optional arguments for 
+ 								<code>
+									koRpus::set.lang.support()
+								</code>
+							</p>
+						</li>
+					</ul>
+					<h4>
+						temporary
+					</h4>
+					<ul>
+						<li>
+							<p>
+								this is planned to be a CRAN-only transitional release. since this package needs koRpus &gt;=0.11-2 but the CRAN version (0.10-2) should be upgraded after this package was already accepted, we'll work around this by deactivating functionality unavailable to older koRpus versions, if such an old package is used
+							</p>
+						</li>
+						<li>
+							<p>
+								temporarily lowered koRpus dependency to 0.10-2
+							</p>
+						</li>
+						<li>
+							<p>
+								added a check for koRpus version to 
+ 								<code>
+									.onAttach()
+								</code>
+								, so that the language support which is already present won't be tampered with; i.e., you can safely load this package with older koRpus packages, it just won't add anything
+							</p>
+						</li>
+					</ul> 
+				]]>
+			</description>
+		</item>
 		<item>
 			<title>
 				Changes in koRpus.lang.en version 0.1-1
@@ -32,15 +150,15 @@
 			<description>
 				<![CDATA[ 
 					<h4>
-										changed
-									</h4>
-									<ul>
-										<li>
-											<p>
-												initial release as standalone package
-											</p>
-										</li>
-									</ul> 
+						changed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								initial release as standalone package
+							</p>
+						</li>
+					</ul> 
 				]]>
 			</description>
 		</item>

@@ -56,6 +56,35 @@ Checksums-Sha512:
  6010371ff55a9f872c31cfe776201857ce67998154b1bf077f727d815b2d8e05e5b91db21357756cc93ded9efd7da94632b339af8717a9fe3b6107953afb2fd3 16156 r-other-undocumeantit-korpus.lang.en_0.1-2.orig.tar.xz
  db4779647fdda509da74646365950eb345049604964be555f51310bc24d2bc20d76add0bbc5cb9174f2ca5513d1c35c0fbd4e28222f7290ccfa5f019110ee248 1684 r-other-undocumeantit-korpus.lang.en_0.1-2-1.debian.tar.xz
 
+Package: r-other-undocumeantit-korpus.lang.en
+Format: 3.0 (quilt)
+Binary: r-other-undocumeantit-korpus.lang.en
+Architecture: all
+Version: 0.1-3-1
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Standards-Version: 3.9.3.1
+Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs, r-cran-korpus (>= 0.11-2) | r-other-reaktanz-korpus (>= 0.11-2), r-cran-sylly.en | r-other-reaktanz-sylly.en | r-other-undocumeantit-sylly.en
+Homepage: https://reaktanz.de/?c=hacking&s=koRpus
+Directory: source/unstable
+Package-List:
+ r-other-undocumeantit-korpus.lang.en deb gnu-r optional arch=all
+Files:
+ a30d158718f25244a00b6399896fdb1d 1265 r-other-undocumeantit-korpus.lang.en_0.1-3-1.dsc
+ da31fb307e67a5578041c93f0d71c1b3 18312 r-other-undocumeantit-korpus.lang.en_0.1-3.orig.tar.xz
+ 818e10887be05c74cc387868256a692b 1704 r-other-undocumeantit-korpus.lang.en_0.1-3-1.debian.tar.xz
+Checksums-Sha1:
+ 547ea6d6e4e03b11fc5065f2e8cec7ae2abc781b 1265 r-other-undocumeantit-korpus.lang.en_0.1-3-1.dsc
+ 2b53eb1cb67d48429f17955ed6b3061f5010cc17 18312 r-other-undocumeantit-korpus.lang.en_0.1-3.orig.tar.xz
+ 081ec0a3b713e37eb73962f3b727e4815b30539b 1704 r-other-undocumeantit-korpus.lang.en_0.1-3-1.debian.tar.xz
+Checksums-Sha256:
+ f3e6bde6e4f85b3d70aa8446f7a283bfa07c557218219af2a4fad9d6cb77e273 1265 r-other-undocumeantit-korpus.lang.en_0.1-3-1.dsc
+ c4410f45d9c336a10b41b04ada73c855f03cf9b1a225f8e3d339e0919d09aa90 18312 r-other-undocumeantit-korpus.lang.en_0.1-3.orig.tar.xz
+ 7ecaa32af803a01888b285a2c7572a73055818b15fe085d451938bc6bb504a0e 1704 r-other-undocumeantit-korpus.lang.en_0.1-3-1.debian.tar.xz
+Checksums-Sha512:
+ f72971096a572a2f35e24f91a52c2cb4b083bd89433535141204ba28748ef257c6d042746ee5c661a3d3c0174ba08f700f18c6450b06dfb61af884ef34b77c50 1265 r-other-undocumeantit-korpus.lang.en_0.1-3-1.dsc
+ a129811c73714db8ad8e18884d64181e416fe0806aa9c02d138409d7cb748775f3c22a2c64a4717756a9341b5e214bf986ad515530ded0ff26ae9ab79554922c 18312 r-other-undocumeantit-korpus.lang.en_0.1-3.orig.tar.xz
+ dbe52feaf89a478a877e04dd707723567f88ab7ea90c3476e124d99b3bbec3884fbc01ba893767f123b553f13d5c93a1fddfba79171aa4f7b48d6e3745d28c04 1704 r-other-undocumeantit-korpus.lang.en_0.1-3-1.debian.tar.xz
+
 Package: r-other-undocumeantit-korpus.lang.es
 Format: 3.0 (quilt)
 Binary: r-other-undocumeantit-korpus.lang.es
