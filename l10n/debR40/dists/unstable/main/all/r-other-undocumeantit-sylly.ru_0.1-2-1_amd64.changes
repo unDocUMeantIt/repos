@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Wed, 27 Sep 2017 18:57:51 +0200
+Source: r-other-undocumeantit-sylly.ru
+Binary: r-other-undocumeantit-sylly.ru
+Architecture: all
+Version: 0.1-2-1
+Distribution: unstable
+Urgency: low
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Changed-By: m.eik michalke <meik.michalke@hhu.de>
+Description:
+ r-other-undocumeantit-sylly.ru - GNU R package "Language Support for 'sylly' Package: Russian"
+Changes:
+ r-other-undocumeantit-sylly.ru (0.1-2-1) unstable; urgency=low
+ .
+   * new upstream release
+Checksums-Sha1:
+ 55eddcf94318861c186d2602f2e82835e73d94bd 53144 r-other-undocumeantit-sylly.ru_0.1-2-1_all.deb
+ 26524f7bc97f186b3439046e7cfbd7ad6563e96b 13534 r-other-undocumeantit-sylly.ru_0.1-2-1_amd64.buildinfo
+Checksums-Sha256:
+ 24f3314a5be80c7c67687ce885a59ab157112406b8fd5b7bb602a276bfab5b64 53144 r-other-undocumeantit-sylly.ru_0.1-2-1_all.deb
+ 02d0c87e872c8484ae299dc438057f11ac60c589a0ff430b49885842a66dd65e 13534 r-other-undocumeantit-sylly.ru_0.1-2-1_amd64.buildinfo
+Files:
+ 3dc98f757e43ad218153ba0067595096 53144 gnu-r optional r-other-undocumeantit-sylly.ru_0.1-2-1_all.deb
+ 1a04837d68f02c4f1d46859effd91f4f 13534 gnu-r optional r-other-undocumeantit-sylly.ru_0.1-2-1_amd64.buildinfo
