@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 05 Jan 2018 01:10:22 +0100
+Source: r-other-undocumeantit-korpus.lang.it
+Binary: r-other-undocumeantit-korpus.lang.it
+Architecture: all
+Version: 0.1-1-1
+Distribution: unstable
+Urgency: low
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Changed-By: Meik Michalke <meik.michalke@hhu.de>
+Description:
+ r-other-undocumeantit-korpus.lang.it - GNU R package "Language Support for 'koRpus' Package: Italian"
+Changes:
+ r-other-undocumeantit-korpus.lang.it (0.1-1-1) unstable; urgency=low
+ .
+   * new upstream release
+Checksums-Sha1:
+ 8d82320955a5c3afb9ad7ec0c1630fb51c93be0c 17312 r-other-undocumeantit-korpus.lang.it_0.1-1-1_all.deb
+ 9b68717be036a69aed6443bbc7fb6554952020b6 13693 r-other-undocumeantit-korpus.lang.it_0.1-1-1_amd64.buildinfo
+Checksums-Sha256:
+ 5a8439dff05e7be35db548ff07941028ceb861aed3b116138a10b4ea9d7bedd2 17312 r-other-undocumeantit-korpus.lang.it_0.1-1-1_all.deb
+ 5b53be92da7aa4ff5f5062515508e7de4a53b481500d9e0277b00f314b1ec25c 13693 r-other-undocumeantit-korpus.lang.it_0.1-1-1_amd64.buildinfo
+Files:
+ ee5616224b54455c0deed650f73a94eb 17312 gnu-r optional r-other-undocumeantit-korpus.lang.it_0.1-1-1_all.deb
+ 0b58617099edcbff289fa8ec9f13556a 13693 gnu-r optional r-other-undocumeantit-korpus.lang.it_0.1-1-1_amd64.buildinfo

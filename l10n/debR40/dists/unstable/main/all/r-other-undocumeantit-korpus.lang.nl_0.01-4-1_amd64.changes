@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sat, 30 Sep 2017 22:33:41 +0200
+Source: r-other-undocumeantit-korpus.lang.nl
+Binary: r-other-undocumeantit-korpus.lang.nl
+Architecture: all
+Version: 0.01-4-1
+Distribution: unstable
+Urgency: low
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Changed-By: Meik Michalke <meik.michalke@hhu.de>
+Description:
+ r-other-undocumeantit-korpus.lang.nl - GNU R package "Language Support for 'koRpus': Dutch"
+Changes:
+ r-other-undocumeantit-korpus.lang.nl (0.01-4-1) unstable; urgency=low
+ .
+   * new upstream release
+Checksums-Sha1:
+ 176e02f36b4affc43dc2f42c0d2f1292b66adbac 17012 r-other-undocumeantit-korpus.lang.nl_0.01-4-1_all.deb
+ 3878e2d95d85da5b42cbe9d54332e357f47800a4 13697 r-other-undocumeantit-korpus.lang.nl_0.01-4-1_amd64.buildinfo
+Checksums-Sha256:
+ 78b40768e928034178527061fbf64d286635699d50d1ad6525918d527988ddf3 17012 r-other-undocumeantit-korpus.lang.nl_0.01-4-1_all.deb
+ 6de3533d1c8b73912381c5b6a276bc0662222aff8c05892934eab1f91a8db38b 13697 r-other-undocumeantit-korpus.lang.nl_0.01-4-1_amd64.buildinfo
+Files:
+ d7409d2a6feea1f3e1c4a5bd91979f13 17012 gnu-r optional r-other-undocumeantit-korpus.lang.nl_0.01-4-1_all.deb
+ d51cacddb87a7e83de668ca2ca6bb3c9 13697 gnu-r optional r-other-undocumeantit-korpus.lang.nl_0.01-4-1_amd64.buildinfo

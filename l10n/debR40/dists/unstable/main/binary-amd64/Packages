@@ -1,3 +1,165 @@
+Package: r-other-undocumeantit-korpus.lang.de
+Architecture: all
+Version: 0.1-1-1
+Priority: optional
+Section: gnu-r
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Installed-Size: 50
+Depends: r-base-core (>= 4.0.0), r-api-4.0, r-cran-korpus (>= 0.11-2) | r-other-reaktanz-korpus (>= 0.11-2), r-cran-sylly.de | r-other-reaktanz-sylly.de | r-other-undocumeantit-sylly.de
+Filename: dists/unstable/main/all/r-other-undocumeantit-korpus.lang.de_0.1-1-1_all.deb
+Size: 17032
+MD5sum: 98a58db54a7767df218007304d544380
+SHA1: a6dce6044ebe530281277a2f2c812f4466f959de
+SHA256: bccba2ecc07c5fbdedad8110f84edc5c0eda3c0971bb194bda915adb4b46d886
+SHA512: 485ed2f3c1a7b6d583373154aae8b4365aa966d460ae725bee8f819e6fbf63be50c6d8411fa296edb69a5e6a54f6ced15d26c49d1e65341a7c2531608b6b5f9c
+Homepage: https://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'koRpus' Package: German"
+ .
+ Adds support for the German language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please
+ consider subscribing to the koRpus-dev mailing list (<http://korpusml.reaktanz.de>).
+
+Package: r-other-undocumeantit-korpus.lang.en
+Architecture: all
+Version: 0.1-3-1
+Priority: optional
+Section: gnu-r
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Installed-Size: 55
+Depends: r-base-core (>= 4.0.0), r-api-4.0, r-cran-korpus (>= 0.11-2) | r-other-reaktanz-korpus (>= 0.11-2), r-cran-sylly.en | r-other-reaktanz-sylly.en | r-other-undocumeantit-sylly.en
+Filename: dists/unstable/main/all/r-other-undocumeantit-korpus.lang.en_0.1-3-1_all.deb
+Size: 21400
+MD5sum: 100141078d4d0e5d57fa4606c2dc84ba
+SHA1: 98ff0373403f0ba8a80d530b700fa69897ce0243
+SHA256: a25e35acbfa82f9bf148c3bf796ab17061b88430540f8ce5fbbce9fd742e8fef
+SHA512: 3574323bb6ce57e38085b25907aa47925dffb9313155474d14d2becea648984d48614b97fb94d79c07f1b8021f47614b632746193fbbe7612e95dda3d7bb5d9b
+Homepage: https://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'koRpus' Package: English"
+ .
+ Adds support for the English language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please
+ consider subscribing to the koRpus-dev mailing list (<http://korpusml.reaktanz.de>).
+
+Package: r-other-undocumeantit-korpus.lang.es
+Architecture: all
+Version: 0.1-1-1
+Priority: optional
+Section: gnu-r
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Installed-Size: 52
+Depends: r-base-core (>= 4.0.0), r-api-4.0, r-cran-korpus (>= 0.11-2) | r-other-reaktanz-korpus (>= 0.11-2), r-cran-sylly.es | r-other-reaktanz-sylly.es | r-other-undocumeantit-sylly.es
+Filename: dists/unstable/main/all/r-other-undocumeantit-korpus.lang.es_0.1-1-1_all.deb
+Size: 17876
+MD5sum: 79375340b74a81b60731b03f7c524f73
+SHA1: e62a69d5fc26840acd2b1414e530ed525b933591
+SHA256: cb84a0d9c51c9426ab95563b8c57a3cbb464ea9ee8ef088b04d580402eb6e1f0
+SHA512: 1f030ee2bb7b3e70bad3386405f87f45544b1b858b229d49d4f07310e058910bb224f93c3b55aaa24583c56574e83be8d43022349f3d3e371e3dd25eb6970a12
+Homepage: https://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'koRpus' Package: Spanish"
+ .
+ Adds support for the Spanish language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please
+ consider subscribing to the koRpus-dev mailing list (<http://korpusml.reaktanz.de>).
+
+Package: r-other-undocumeantit-korpus.lang.fr
+Architecture: all
+Version: 0.1-1-1
+Priority: optional
+Section: gnu-r
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Installed-Size: 51
+Depends: r-base-core (>= 4.0.0), r-api-4.0, r-cran-korpus (>= 0.11-2) | r-other-reaktanz-korpus (>= 0.11-2), r-cran-sylly.fr | r-other-reaktanz-sylly.fr | r-other-undocumeantit-sylly.fr
+Filename: dists/unstable/main/all/r-other-undocumeantit-korpus.lang.fr_0.1-1-1_all.deb
+Size: 16064
+MD5sum: da170e7c7692c9136862c22b2a142645
+SHA1: b8174db86e74a39bbbffa4698d18cb3ec3b89bf8
+SHA256: 65a62bf47c5f422d0517092f216f7e7dd094103b03bfb8a70df5889f16009560
+SHA512: 8a999c4a45d0467f1154e45147b5fcf12cbd651b22170ff2b5e08cd52361b66b7f93aeb9def89652c94d5d731dbc1ee28c92e9b3a7bed157b6be66edee2f17f8
+Homepage: https://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'koRpus' Package: French"
+ .
+ Adds support for the French language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please
+ consider subscribing to the koRpus-dev mailing list (<http://korpusml.reaktanz.de>).
+
+Package: r-other-undocumeantit-korpus.lang.it
+Architecture: all
+Version: 0.1-1-1
+Priority: optional
+Section: gnu-r
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Installed-Size: 52
+Depends: r-base-core (>= 4.0.0), r-api-4.0, r-cran-korpus (>= 0.11-2) | r-other-reaktanz-korpus (>= 0.11-2), r-cran-sylly.it | r-other-reaktanz-sylly.it | r-other-undocumeantit-sylly.it
+Filename: dists/unstable/main/all/r-other-undocumeantit-korpus.lang.it_0.1-1-1_all.deb
+Size: 17312
+MD5sum: ee5616224b54455c0deed650f73a94eb
+SHA1: 8d82320955a5c3afb9ad7ec0c1630fb51c93be0c
+SHA256: 5a8439dff05e7be35db548ff07941028ceb861aed3b116138a10b4ea9d7bedd2
+SHA512: f2538e2927052877c357c5ddc4a045c7e063f380c504b9e88d033bc93343170349752002a94689a572351a1d7650a3ea5f3f6d853d3036317b1af6310725c5b6
+Homepage: https://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'koRpus' Package: Italian"
+ .
+ Adds support for the Italian language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please
+ consider subscribing to the koRpus-dev mailing list (<http://korpusml.reaktanz.de>).
+
+Package: r-other-undocumeantit-korpus.lang.nl
+Architecture: all
+Version: 0.01-4-1
+Priority: optional
+Section: gnu-r
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Installed-Size: 52
+Depends: r-base-core (>= 4.0.0), r-api-4.0, r-cran-korpus (>= 0.11-1) | r-other-reaktanz-korpus (>= 0.11-1), r-cran-sylly.nl | r-other-reaktanz-sylly.nl | r-other-undocumeantit-sylly.nl
+Filename: dists/unstable/main/all/r-other-undocumeantit-korpus.lang.nl_0.01-4-1_all.deb
+Size: 17012
+MD5sum: d7409d2a6feea1f3e1c4a5bd91979f13
+SHA1: 176e02f36b4affc43dc2f42c0d2f1292b66adbac
+SHA256: 78b40768e928034178527061fbf64d286635699d50d1ad6525918d527988ddf3
+SHA512: b85ad969a41746fc0f3e586c891f15cd4b6b5fb6e99be2a74e79a6bf37fa87f52d20f5fde7881956dd4f6e0d8bae97bb10bd0626fefbdf381bee38399c1262c2
+Homepage: http://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'koRpus': Dutch"
+ .
+ Adds support for the Dutch language to the 'koRpus' package. Due to some restrictions on CRAN, the full package sources are only available from the project homepage. To ask for
+ help, report bugs, suggest feature improvements, or discuss the global development of the package, please subscribe to the koRpus-dev mailing list
+ (<http://korpusml.reaktanz.de>).
+
+Package: r-other-undocumeantit-korpus.lang.pt
+Architecture: all
+Version: 0.01-2-1
+Priority: optional
+Section: gnu-r
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Installed-Size: 55
+Depends: r-base-core (>= 4.0.0), r-api-4.0, r-cran-korpus (>= 0.11-1) | r-other-reaktanz-korpus (>= 0.11-1), r-cran-sylly.pt | r-other-reaktanz-sylly.pt | r-other-undocumeantit-sylly.pt
+Filename: dists/unstable/main/all/r-other-undocumeantit-korpus.lang.pt_0.01-2-1_all.deb
+Size: 21032
+MD5sum: 99c662de03643d55ba389f5eea3c2b2b
+SHA1: 024f37ce1b5363d8251acac21d232fa9f9d18321
+SHA256: fcbe5d4fb9269c203c427046b92c36c4639f2ff96cf8a202baf56608a03a596b
+SHA512: 57777e6c92ebc4c63dab039bf0f9b2eb5775e16581bb72f1dd3fc95a2876c76e954157b169f1778df0909f6de3bf8037d7d5732525d682dcf0311427f9e5128d
+Homepage: http://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'koRpus': Portuguese"
+ .
+ Adds support for the Portuguese language to the 'koRpus' package. Due to some restrictions on CRAN, the full package sources are only available from the project homepage. To ask
+ for help, report bugs, suggest feature improvements, or discuss the global development of the package, please subscribe to the koRpus-dev mailing list
+ (<http://korpusml.reaktanz.de>).
+
+Package: r-other-undocumeantit-korpus.lang.ru
+Architecture: all
+Version: 0.1-1-1
+Priority: optional
+Section: gnu-r
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Installed-Size: 63
+Depends: r-base-core (>= 4.0.0), r-api-4.0, r-cran-korpus (>= 0.11-2) | r-other-reaktanz-korpus (>= 0.11-2), r-cran-sylly.ru | r-other-reaktanz-sylly.ru | r-other-undocumeantit-sylly.ru
+Filename: dists/unstable/main/all/r-other-undocumeantit-korpus.lang.ru_0.1-1-1_all.deb
+Size: 28988
+MD5sum: 15f5e542c10313f7bb581323a45a86af
+SHA1: d4b7c4b9e005aa366ab76fa7f1f8d247c5f493ba
+SHA256: 491f669d39b4d76091bc96b5d996ab1ba35583444b90ce38d5da29dfadb750f6
+SHA512: cb16dd4108daed741d2df0cd0687ce3e665411078f8140dc27672942fb724a50a77e59357731f34322ee0c318cf6e080319ba032ed88d047f53a33336ace8693
+Homepage: https://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'koRpus' Package: Russian"
+ .
+ Adds support for the Russian language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please
+ consider subscribing to the koRpus-dev mailing list (<http://korpusml.reaktanz.de>).
+
 Package: r-other-undocumeantit-sylly.de
 Architecture: all
 Version: 0.1-2-1
