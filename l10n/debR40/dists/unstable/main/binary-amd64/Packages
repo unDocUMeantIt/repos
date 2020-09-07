@@ -361,3 +361,20 @@ SHA512: 69c9629e4b44427ff6972a5cd5e0c8b4bd7937e420377768a06631cee6e160f76ecbd912
 Homepage: https://undocumeantit.github.io/repos/l10n
 Description: OpenPGP keyring for Debian packages hosted at the undocumeantit repository. This keyring is necessary to use secure apt.
 
+Package: undocumeantit-keyring
+Architecture: all
+Version: 0.5-1
+Priority: extra
+Section: misc
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Installed-Size: 13
+Depends: gpgv
+Filename: dists/unstable/main/all/undocumeantit-keyring_0.5-1_all.deb
+Size: 4876
+MD5sum: 069eb5821bd2dbea13d0d02fa74d310b
+SHA1: 8b4aa858b14641337f84946d3940e1ed5becca74
+SHA256: 768a6206e71340b5a8d176774457252e0d9971a2ac65ff45ec1e0b6622ee4e8e
+SHA512: e36b813b948c6ae0777e8e69baaa96a55e3589cfaa78636b8782fc0d5a09f26a8394a833838d5c54646234e2040ae5f40a860786a270ae42f227750efdc25bac
+Homepage: https://undocumeantit.github.io/repos/l10n
+Description: OpenPGP keyring for Debian packages hosted at the undocumeantit repository. This keyring is neccessary to use secure apt.
+
