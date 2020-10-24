@@ -1,12 +1,12 @@
 ChangeLog for package koRpus.lang.ru
 
-changes in version 0.1-2 (2018-02-20)
-unreleased:
-  - this release is under development
+changes in version 0.1-2 (2020-10-24)
 fixed:
   - package name in license header
 changed:
   - updated README.md
+  - renamed abbreviations and parameter files omitting the "-utf8" suffix
+  - removed methods from list of imported packages
 added:
   - support optional arguments for koRpus::set.lang.support()
 

@@ -10,12 +10,78 @@
 		<atom:link href="https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.nl/RSS.xml" rel="self" type="application/rss+xml" />
 		<description>
 			<![CDATA[ 
-				Adds support for the Dutch language to the 'koRpus' package. Due to some restrictions on CRAN, the full package sources are only available from the project homepage. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please subscribe to the koRpus-dev mailing list (&lt;http://korpusml.reaktanz.de&gt;). 
+				Adds support for the Dutch language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please consider subscribing to the koRpus-dev mailing list (<https://korpusml.reaktanz.de>). 
 			]]>
 		</description>
 		<generator>
-			roxyPackage (0.05-4)
+			roxyPackage (0.06-5)
 		</generator>
+		<item>
+			<title>
+				Changes in koRpus.lang.nl version 0.1-5
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.nl
+			</link>
+			<pubDate>
+				Sat, 24 Oct 2020 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				koRpus.lang.nl0.1-5(2020-10-24)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+						changed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								removed hard coded abbreviations from global TT.tknz.opts in preset, to enable checks for file names by koRpus
+							</p>
+						</li>
+						<li>
+							<p>
+								version number shortened by dropping a zero
+							</p>
+						</li>
+						<li>
+							<p>
+								updated README.md
+							</p>
+						</li>
+						<li>
+							<p>
+								removed methods from list of imported packages
+							</p>
+						</li>
+						<li>
+							<p>
+								renamed abbreviations and parameter files omitting the &quot;-utf8&quot; suffix
+							</p>
+						</li>
+					</ul>
+					<h4>
+						added
+					</h4>
+					<ul>
+						<li>
+							<p>
+								support optional arguments for 
+ 								<code>
+									koRpus::set.lang.support()
+								</code>
+							</p>
+						</li>
+						<li>
+							<p>
+								LICENSE file
+							</p>
+						</li>
+					</ul> 
+				]]>
+			</description>
+		</item>
 		<item>
 			<title>
 				Changes in koRpus.lang.nl version 0.01-4
@@ -32,30 +98,30 @@
 			<description>
 				<![CDATA[ 
 					<h4>
-										changed
-									</h4>
-									<ul>
-										<li>
-											<p>
-												adjusted koRpus dependency to &gt;= 0.11-1
-											</p>
-										</li>
-										<li>
-											<p>
-												package was moved to the l10n repository on github
-											</p>
-										</li>
-									</ul>
-									<h4>
-										removed
-									</h4>
-									<ul>
-										<li>
-											<p>
-												hyphenation patterns: are now imported via the sylly.pt package
-											</p>
-										</li>
-									</ul> 
+						changed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								adjusted koRpus dependency to &gt;= 0.11-1
+							</p>
+						</li>
+						<li>
+							<p>
+								package was moved to the l10n repository on github
+							</p>
+						</li>
+					</ul>
+					<h4>
+						removed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								hyphenation patterns: are now imported via the sylly.pt package
+							</p>
+						</li>
+					</ul> 
 				]]>
 			</description>
 		</item>
@@ -75,28 +141,29 @@
 			<description>
 				<![CDATA[ 
 					<h4>
-										changed
-									</h4>
-									<ul>
-										<li>
-											<p>
-												renamed preset from &quot;nl-utf8&quot; into plain 								<code>
-													"nl"
-												</code>
-												, as UTF-8 is the default in both TreeTagger and koRpus
-											</p>
-										</li>
-									</ul>
-									<h4>
-										added
-									</h4>
-									<ul>
-										<li>
-											<p>
-												README.md file
-											</p>
-										</li>
-									</ul> 
+						changed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								renamed preset from &quot;nl-utf8&quot; into plain 
+ 								<code>
+									"nl"
+								</code>
+								, as UTF-8 is the default in both TreeTagger and koRpus
+							</p>
+						</li>
+					</ul>
+					<h4>
+						added
+					</h4>
+					<ul>
+						<li>
+							<p>
+								README.md file
+							</p>
+						</li>
+					</ul> 
 				]]>
 			</description>
 		</item>
@@ -116,20 +183,20 @@
 			<description>
 				<![CDATA[ 
 					<h4>
-										fixed
-									</h4>
-									<ul>
-										<li>
-											<p>
-												adjusted koRpus dependency to &gt;= 0.06-3
-											</p>
-										</li>
-										<li>
-											<p>
-												typo in package description
-											</p>
-										</li>
-									</ul> 
+						fixed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								adjusted koRpus dependency to &gt;= 0.06-3
+							</p>
+						</li>
+						<li>
+							<p>
+								typo in package description
+							</p>
+						</li>
+					</ul> 
 				]]>
 			</description>
 		</item>
@@ -149,15 +216,15 @@
 			<description>
 				<![CDATA[ 
 					<h4>
-										changed
-									</h4>
-									<ul>
-										<li>
-											<p>
-												initial public release via reaktanz.de
-											</p>
-										</li>
-									</ul> 
+						changed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								initial public release via reaktanz.de
+							</p>
+						</li>
+					</ul> 
 				]]>
 			</description>
 		</item>

@@ -10,12 +10,60 @@
 		<atom:link href="https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.en/RSS.xml" rel="self" type="application/rss+xml" />
 		<description>
 			<![CDATA[ 
-				Adds support for the English language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please consider subscribing to the koRpus-dev mailing list (<http://korpusml.reaktanz.de>). 
+				Adds support for the English language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please consider subscribing to the koRpus-dev mailing list (<https://korpusml.reaktanz.de>). 
 			]]>
 		</description>
 		<generator>
 			roxyPackage (0.06-5)
 		</generator>
+		<item>
+			<title>
+				Changes in koRpus.lang.en version 0.1-4
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.en
+			</link>
+			<pubDate>
+				Sat, 24 Oct 2020 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				koRpus.lang.en0.1-4(2020-10-24)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+						fixed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								removed hard coded abbreviations from global TT.tknz.opts in preset, to enable checks for file names by koRpus
+							</p>
+						</li>
+						<li>
+							<p>
+								added missing BNC tag AJS and 15 ambiguity tags
+							</p>
+						</li>
+					</ul>
+					<h4>
+						changed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								removed the lexicon lookup from the preset, as it is also no longer part of the TreeTagger script
+							</p>
+						</li>
+						<li>
+							<p>
+								renamed abbreviations and parameter files omitting the &quot;-utf8&quot; suffix
+							</p>
+						</li>
+					</ul> 
+				]]>
+			</description>
+		</item>
 		<item>
 			<title>
 				Changes in koRpus.lang.en version 0.1-3

@@ -1,12 +1,14 @@
 ChangeLog for package koRpus.lang.it
 
-changes in version 0.1-2 (2018-02-20)
-unreleased:
-  - this release is under development
+changes in version 0.1-2 (2020-10-24)
 fixed:
+  - removed hard coded abbreviations from global TT.tknz.opts in preset, to
+    enable checks for file names by koRpus
   - package name in license header
 changed:
+  - renamed abbreviations and parameter files omitting the "-utf8" suffix
   - updated README.md
+  - removed methods from list of imported packages
 added:
   - support optional arguments for koRpus::set.lang.support()
 

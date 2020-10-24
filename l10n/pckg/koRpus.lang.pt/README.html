@@ -1,34 +1,106 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>koRpus.lang.pt: README</title>
-  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
 </head>
 <body>
 <h1 id="korpus.lang.pt">koRpus.lang.pt</h1>
-<p><a href="https://flattr.com/submit/auto?user_id=m.eik&amp;url=https://github.com/unDocUMeantIt/koRpus.lang.pt&amp;title=koRpus.lang.pt&amp;language=en_GB&amp;tags=github&amp;category=software"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAAAUCAYAAADvJjFnAAAACXBIWXMAAAsTAAALEwEAmpwYAAAGiGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTgtMTEtMjJUMTc6MTg6NTErMDE6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE5LTA5LTI1VDE2OjMwOjM0KzAyOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE5LTA5LTI1VDE2OjMwOjM0KzAyOjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjg3Y2MyMzYwLTdjZDMtNDMwYy05M2IyLWUzMGY4OTIzMzU2YSIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOmYwM2M2MWRiLWEwOWYtMWY0Ni1iNDExLTY3NDljMDJjOWQyNiIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjg1YjA4NTVjLTc2ZDktNDA2YS04YTAxLTVhZjMwYzk4ZTQwOCI+IDxwaG90b3Nob3A6VGV4dExheWVycz4gPHJkZjpCYWc+IDxyZGY6bGkgcGhvdG9zaG9wOkxheWVyTmFtZT0iRG9uYXRlIiBwaG90b3Nob3A6TGF5ZXJUZXh0PSJEb25hdGUiLz4gPC9yZGY6QmFnPiA8L3Bob3Rvc2hvcDpUZXh0TGF5ZXJzPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjg1YjA4NTVjLTc2ZDktNDA2YS04YTAxLTVhZjMwYzk4ZTQwOCIgc3RFdnQ6d2hlbj0iMjAxOC0xMS0yMlQxNzoxODo1MSswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKE1hY2ludG9zaCkiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjg3Y2MyMzYwLTdjZDMtNDMwYy05M2IyLWUzMGY4OTIzMzU2YSIgc3RFdnQ6d2hlbj0iMjAxOS0wOS0yNVQxNjozMDozNCswMjowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKE1hY2ludG9zaCkiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+oL3K1QAAA21JREFUWMPtmd1OE0EUx/sIvIF9EB9EpAhCaCQQPmIMEcQogqh4sak2JhqjCeiVhJQQI6WFWqNFS9gWQpSolQS/UG+MtRfcjPufMGZ2dmd3dmmtafYkk3R3Z85Of+fMOWdmQ4SQkNiOLbaEjaYZrWA0EjTPrXDAL2zH1w64FkCratOk0I2HTYFn19Tzm0zQvQKfzI2R/KccKe//IjLJ7qQcdYhS3i+TjR+bZCw/3qjgK0Y7wkNXDilP3iaIm7gBZ9DFe4AOmSslSOtSeyOC1yn0g6SpNAgwmWx9K5Lbepx6Pe+5InCZAeygo53NnaNev/Ix89/Aks3VZzuq7OVafsrRk2XAZRN2+iMTa5P0+cjqaCNC10OqsRyezTzcy2T9QGehJvd11XSvczlKHr2bJZ9/f6HjSz9L5PLaFUfd0IOVg5baTVMd7FnzYoSMvrxA9ip7f/UNPDvtaVWykAj90ZVupdge8goQIeVfQI8Vb1IY7PpUpode488lSvPkztZdahRIfPOWRTd7dnV9itzYiJNL+Ql6jbGs3/T2A6pv2IAXWWojWjFG+3Sku6QJvyV5whQGMU/APvN8iF63pTpcuXiGzmJ4raGLfdK7y9QTeU81h6LzlvfCUHzf6TczJkP2ZQct+rBy8B63uaIPDM/fwzVvmKpB91JWMhnI9B8aOgSA7frBq3lQkKEXw76M3ZyMWPrYjYGIFRYMCEHYqgt0hKHDeDoA817p1l80kGpShHciLrO4bjdnGXSZwHBu0Au1gO6WeN10zb6fMyXSWkBnSRBxGd4JWDPbD5Whd2d6aSjBOIzHb+QGF+gV5ZLRS0nI1/MoNb1C73naR58j+fH9tUJMWumgeYUOQUK0CxEq0NtTnb5LxrDqxkgGNprqojEcIYV5uNvOVAZm0CjZUAVgV8rfR6mIECAmPhjCLpGqQuf14TfebQddNA5yyMLOY9sy0nVz5OdkkQcuExwX+D0GmP+wYJReJy3eLysZUX+rriL+GXQBXm+2n1x8NU71s9jOj2H38U5WEh5PttLx+nfdAD1CVyWbv+gYlmMArwdeTsBxAIaDMJWyUnbgdW39unQMlvO91/dNmxm7XasqdHFzg3ofUMXxKC1ZP74yQQyH4dnmC78d6vRKcLRb76Pd4CNGnT5iBJ/rqn52rss+1/0B/zQ8BmRqKe8AAAAASUVORK5CYII=" alt="Flattr this git repo" /></a></p>
-<p>Adds support for the Portuguese language to the koRpus package.</p>
-<p>More information on koRpus is available on the <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">project homepage</a>.</p>
+<p>Adds support for the Portuguese language to the <a href="https://reaktanz.de/?c=hacking&amp;s=koRpus">koRpus</a> package.</p>
+<p>More information on ‘koRpus.lang.pt’ is available on the <a href="https://reaktanz.de/?c=hacking&amp;s=koRpus">project homepage</a>.</p>
 <h2 id="installation">Installation</h2>
-<h3 id="development-releases-via-the-project-repository">Development releases via the project repository</h3>
-<p>Installation of tha latest stable release is fairly easy, it's available from the project's own repository:</p>
-<pre><code>install.packages(&quot;koRpus.lang.pt&quot;, repo=&quot;https://undocumeantit.github.io/repos/l10n&quot;)</code></pre>
-<p>To automatically get updates, consider adding the repository to your R configuration. You might also want to subscribe to the package's <a href="https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.pt/RSS.xml">RSS feed</a> to get notified of new releases.</p>
-<p>If you're running a Debian based operating system, you might be interested in the <a href="https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.pt/deb_repo.html">precompiled *.deb packages</a>.</p>
+<h3 id="installation-from-the-official-l10n-repository">Installation from the official l10n repository</h3>
+<p>The latest stable release can be installed directly from the project’s own repository:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">install.packages</span>(</a>
+<a class="sourceLine" id="cb1-2" title="2">  <span class="st">&quot;koRpus.lang.pt&quot;</span>,</a>
+<a class="sourceLine" id="cb1-3" title="3">  <span class="dt">repo=</span><span class="kw">c</span>(</a>
+<a class="sourceLine" id="cb1-4" title="4">    <span class="kw">getOption</span>(<span class="st">&quot;repos&quot;</span>),</a>
+<a class="sourceLine" id="cb1-5" title="5">    <span class="dt">l10n=</span><span class="st">&quot;https://undocumeantit.github.io/repos/l10n&quot;</span></a>
+<a class="sourceLine" id="cb1-6" title="6">  )</a>
+<a class="sourceLine" id="cb1-7" title="7">)</a></code></pre></div>
+<p>To automatically get updates, consider <a href="https://undocumeantit.github.io/repos/">adding the repository to your R configuration</a>. You might also want to subscribe to the package’s <a href="https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.pt/RSS.xml">RSS feed</a> to get notified of new releases.</p>
+<p>If you’re running a Debian based operating system, you might be interested in the <a href="https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.pt/deb_repo.html">precompiled *.deb packages</a>.</p>
 <h3 id="installation-via-github">Installation via GitHub</h3>
-<p>To install the package directly from GitHub, you can use <code>install_github()</code> from the <a href="https://github.com/hadley/devtools">devtools</a> package:</p>
-<pre><code>library(devtools)
-install_github(&quot;unDocUMeantIt/koRpus.lang.pt&quot;) # stable release
-install_github(&quot;unDocUMeantIt/koRpus.lang.pt&quot;, ref=&quot;develop&quot;) # development release</code></pre>
+<p>To install the package directly from GitHub, you can use <code>install_github()</code> from the <a href="https://github.com/r-lib/devtools">devtools</a> package:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1">devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;unDocUMeantIt/koRpus.lang.pt&quot;</span>) <span class="co"># stable release</span></a>
+<a class="sourceLine" id="cb2-2" title="2">devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;unDocUMeantIt/koRpus.lang.pt&quot;</span>, <span class="dt">ref=</span><span class="st">&quot;develop&quot;</span>) <span class="co"># development release</span></a></code></pre></div>
 <h2 id="contributing">Contributing</h2>
-<p>To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please either subscribe to the <a href="https://ml06.ispgateway.de/mailman/listinfo/korpus-dev_r.reaktanz.de">koRpus-dev mailing list</a>, or use the issue tracker on GitHub.</p>
+<p>To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please use the <a href="https://github.com/unDocUMeantIt/koRpus.lang.pt/issues">issue tracker</a>, or subscribe to the <a href="https://korpusml.reaktanz.de">koRpus-dev mailing list</a>.</p>
 <h3 id="branches">Branches</h3>
 <p>Please note that all development happens in the <code>develop</code> branch. Pull requests against the <code>master</code> branch will be rejected, as it is reserved for the current stable release.</p>
 <h2 id="license">License</h2>
-<p>koRpus.lang.pt Copyright (C) 2016-2017 m.eik michalke, released under the GNU General Public License (GPL) version 3 or (at your option) any later version.</p>
+<p>koRpus.lang.pt Copyright (C) 2016-2020 Meik Michalke, released under the GNU General Public License (GPL) version 3 or (at your option) any later version.</p>
 <p>This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p>
 <p>You should have received a copy of the license with the source package as the file COPYING or LICENSE.</p>
 </body>

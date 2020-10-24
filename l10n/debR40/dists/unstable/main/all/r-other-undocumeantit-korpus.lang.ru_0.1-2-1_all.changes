@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sat, 24 Oct 2020 17:17:44 +0200
+Source: r-other-undocumeantit-korpus.lang.ru
+Binary: r-other-undocumeantit-korpus.lang.ru
+Architecture: all
+Version: 0.1-2-1
+Distribution: unstable
+Urgency: low
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Changed-By: Meik Michalke <meik.michalke@hhu.de>
+Description:
+ r-other-undocumeantit-korpus.lang.ru - GNU R package "Language Support for 'koRpus' Package: Russian"
+Changes:
+ r-other-undocumeantit-korpus.lang.ru (0.1-2-1) unstable; urgency=low
+ .
+   * new upstream release
+Checksums-Sha1:
+ fd4bbfc6aea4529ec727e92c23343196797b530b 30360 r-other-undocumeantit-korpus.lang.ru_0.1-2-1_all.deb
+ 81aee976e0c46b88c4d3aaa268498cb5fba47be8 12969 r-other-undocumeantit-korpus.lang.ru_0.1-2-1_amd64.buildinfo
+Checksums-Sha256:
+ 733a3bf6554604ba0a3d5bd19b721286f55d9ee04e4c2172018e39eeb384f7b6 30360 r-other-undocumeantit-korpus.lang.ru_0.1-2-1_all.deb
+ 5a8a5dbbe914d721e9a5f623dce140cebdbe2ec7c7088c5cc9e76424b541b8b1 12969 r-other-undocumeantit-korpus.lang.ru_0.1-2-1_amd64.buildinfo
+Files:
+ d1019fa6d8c651569d77656436c724df 30360 gnu-r optional r-other-undocumeantit-korpus.lang.ru_0.1-2-1_all.deb
+ 99cf24a4d9247787ce600764b73e4ac5 12969 gnu-r optional r-other-undocumeantit-korpus.lang.ru_0.1-2-1_amd64.buildinfo

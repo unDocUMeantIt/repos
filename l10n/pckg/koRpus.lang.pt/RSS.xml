@@ -10,12 +10,78 @@
 		<atom:link href="https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.pt/RSS.xml" rel="self" type="application/rss+xml" />
 		<description>
 			<![CDATA[ 
-				Adds support for the Portuguese language to the 'koRpus' package. Due to some restrictions on CRAN, the full package sources are only available from the project homepage. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please subscribe to the koRpus-dev mailing list (&lt;http://korpusml.reaktanz.de&gt;). 
+				Adds support for the Portuguese language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please consider subscribing to the koRpus-dev mailing list (<https://korpusml.reaktanz.de>). 
 			]]>
 		</description>
 		<generator>
-			roxyPackage (0.05-4)
+			roxyPackage (0.06-5)
 		</generator>
+		<item>
+			<title>
+				Changes in koRpus.lang.pt version 0.1-3
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.pt
+			</link>
+			<pubDate>
+				Sat, 24 Oct 2020 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				koRpus.lang.pt0.1-3(2020-10-24)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+						changed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								renamed abbreviations and parameter files omitting the &quot;-utf8&quot; suffix
+							</p>
+						</li>
+						<li>
+							<p>
+								version number shortened by dropping a zero
+							</p>
+						</li>
+						<li>
+							<p>
+								updated README.md
+							</p>
+						</li>
+						<li>
+							<p>
+								removed methods from list of imported packages
+							</p>
+						</li>
+						<li>
+							<p>
+								replaced some non-ASCII characters in tag.class.def.punct with unicode escapes
+							</p>
+						</li>
+					</ul>
+					<h4>
+						added
+					</h4>
+					<ul>
+						<li>
+							<p>
+								support optional arguments for 
+ 								<code>
+									koRpus::set.lang.support()
+								</code>
+							</p>
+						</li>
+						<li>
+							<p>
+								a LICENSE file
+							</p>
+						</li>
+					</ul> 
+				]]>
+			</description>
+		</item>
 		<item>
 			<title>
 				Changes in koRpus.lang.pt version 0.01-2
@@ -32,30 +98,30 @@
 			<description>
 				<![CDATA[ 
 					<h4>
-										changed
-									</h4>
-									<ul>
-										<li>
-											<p>
-												adjusted koRpus dependency to &gt;= 0.11-1
-											</p>
-										</li>
-										<li>
-											<p>
-												package was moved to the l10n repository on github
-											</p>
-										</li>
-									</ul>
-									<h4>
-										removed
-									</h4>
-									<ul>
-										<li>
-											<p>
-												hyphenation patterns: are now imported via the sylly.pt package
-											</p>
-										</li>
-									</ul> 
+						changed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								adjusted koRpus dependency to &gt;= 0.11-1
+							</p>
+						</li>
+						<li>
+							<p>
+								package was moved to the l10n repository on github
+							</p>
+						</li>
+					</ul>
+					<h4>
+						removed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								hyphenation patterns: are now imported via the sylly.pt package
+							</p>
+						</li>
+					</ul> 
 				]]>
 			</description>
 		</item>
@@ -75,15 +141,15 @@
 			<description>
 				<![CDATA[ 
 					<h4>
-										changed
-									</h4>
-									<ul>
-										<li>
-											<p>
-												initial release
-											</p>
-										</li>
-									</ul> 
+						changed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								initial release
+							</p>
+						</li>
+					</ul> 
 				]]>
 			</description>
 		</item>

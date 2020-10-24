@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sat, 24 Oct 2020 16:30:27 +0200
+Source: r-other-undocumeantit-korpus.lang.pt
+Binary: r-other-undocumeantit-korpus.lang.pt
+Architecture: all
+Version: 0.1-3-1
+Distribution: unstable
+Urgency: low
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Changed-By: Meik Michalke <meik.michalke@hhu.de>
+Description:
+ r-other-undocumeantit-korpus.lang.pt - GNU R package "Language Support for 'koRpus' Package: Portuguese"
+Changes:
+ r-other-undocumeantit-korpus.lang.pt (0.1-3-1) unstable; urgency=low
+ .
+   * new upstream release
+Checksums-Sha1:
+ 39392976684d766fe2b38bdcbd3ef12f4a63502f 21860 r-other-undocumeantit-korpus.lang.pt_0.1-3-1_all.deb
+ cb975784862af5350930f17bc11c2ebc9a26f4f5 12969 r-other-undocumeantit-korpus.lang.pt_0.1-3-1_amd64.buildinfo
+Checksums-Sha256:
+ 7a65a92d9aa71079eec5ee8b8588943684dad7309c67e6e051af1c0dc923c5f4 21860 r-other-undocumeantit-korpus.lang.pt_0.1-3-1_all.deb
+ 77ad4b1835ed7b85f526bc0a601536f6d056153730e590dbc3fd5d7d9b401cab 12969 r-other-undocumeantit-korpus.lang.pt_0.1-3-1_amd64.buildinfo
+Files:
+ 945dfda08398f3aa255ca82183fe1ccc 21860 gnu-r optional r-other-undocumeantit-korpus.lang.pt_0.1-3-1_all.deb
+ ed1f86049ec76460412bdc1e35a4bf45 12969 gnu-r optional r-other-undocumeantit-korpus.lang.pt_0.1-3-1_amd64.buildinfo

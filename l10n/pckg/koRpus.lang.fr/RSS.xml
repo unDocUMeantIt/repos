@@ -10,12 +10,73 @@
 		<atom:link href="https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.fr/RSS.xml" rel="self" type="application/rss+xml" />
 		<description>
 			<![CDATA[ 
-				Adds support for the French language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please consider subscribing to the koRpus-dev mailing list (&lt;http://korpusml.reaktanz.de&gt;). 
+				Adds support for the French language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please consider subscribing to the koRpus-dev mailing list (<https://korpusml.reaktanz.de>). 
 			]]>
 		</description>
 		<generator>
-			roxyPackage (0.06-1)
+			roxyPackage (0.06-5)
 		</generator>
+		<item>
+			<title>
+				Changes in koRpus.lang.fr version 0.1-2
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.fr
+			</link>
+			<pubDate>
+				Sat, 24 Oct 2020 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				koRpus.lang.fr0.1-2(2020-10-24)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+						fixed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								removed hard coded abbreviations from global TT.tknz.opts in preset, to enable checks for file names by koRpus
+							</p>
+						</li>
+						<li>
+							<p>
+								package name in license header
+							</p>
+						</li>
+					</ul>
+					<h4>
+						changed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								updated README.md
+							</p>
+						</li>
+						<li>
+							<p>
+								removed methods from list of imported packages
+							</p>
+						</li>
+					</ul>
+					<h4>
+						added
+					</h4>
+					<ul>
+						<li>
+							<p>
+								support optional arguments for 
+ 								<code>
+									koRpus::set.lang.support()
+								</code>
+							</p>
+						</li>
+					</ul> 
+				]]>
+			</description>
+		</item>
 		<item>
 			<title>
 				Changes in koRpus.lang.fr version 0.1-1
@@ -32,15 +93,15 @@
 			<description>
 				<![CDATA[ 
 					<h4>
-										changed
-									</h4>
-									<ul>
-										<li>
-											<p>
-												initial release as standalone package
-											</p>
-										</li>
-									</ul> 
+						changed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								initial release as standalone package
+							</p>
+						</li>
+					</ul> 
 				]]>
 			</description>
 		</item>
