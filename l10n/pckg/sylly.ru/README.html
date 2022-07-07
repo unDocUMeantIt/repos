@@ -1,72 +1,271 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>sylly.ru: README</title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code > span.dt { color: #902000; } /* DataType */
-code > span.dv { color: #40a070; } /* DecVal */
-code > span.bn { color: #40a070; } /* BaseN */
-code > span.fl { color: #40a070; } /* Float */
-code > span.ch { color: #4070a0; } /* Char */
-code > span.st { color: #4070a0; } /* String */
-code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code > span.ot { color: #007020; } /* Other */
-code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code > span.fu { color: #06287e; } /* Function */
-code > span.er { color: #ff0000; font-weight: bold; } /* Error */
-code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-code > span.cn { color: #880000; } /* Constant */
-code > span.sc { color: #4070a0; } /* SpecialChar */
-code > span.vs { color: #4070a0; } /* VerbatimString */
-code > span.ss { color: #bb6688; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { color: #19177c; } /* Variable */
-code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code > span.op { color: #666666; } /* Operator */
-code > span.bu { } /* BuiltIn */
-code > span.ex { } /* Extension */
-code > span.pp { color: #bc7a00; } /* Preprocessor */
-code > span.at { color: #7d9029; } /* Attribute */
-code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <h1 id="sylly.ru">sylly.ru</h1>
-<p><a href="https://flattr.com/submit/auto?user_id=m.eik&amp;url=https://github.com/unDocUMeantIt/sylly.ru&amp;title=sylly.ru&amp;language=en_GB&amp;tags=github&amp;category=software"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAAAUCAYAAADvJjFnAAAACXBIWXMAAAsTAAALEwEAmpwYAAAGiGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTgtMTEtMjJUMTc6MTg6NTErMDE6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE5LTA5LTI1VDE2OjMwOjM0KzAyOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE5LTA5LTI1VDE2OjMwOjM0KzAyOjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjg3Y2MyMzYwLTdjZDMtNDMwYy05M2IyLWUzMGY4OTIzMzU2YSIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOmYwM2M2MWRiLWEwOWYtMWY0Ni1iNDExLTY3NDljMDJjOWQyNiIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjg1YjA4NTVjLTc2ZDktNDA2YS04YTAxLTVhZjMwYzk4ZTQwOCI+IDxwaG90b3Nob3A6VGV4dExheWVycz4gPHJkZjpCYWc+IDxyZGY6bGkgcGhvdG9zaG9wOkxheWVyTmFtZT0iRG9uYXRlIiBwaG90b3Nob3A6TGF5ZXJUZXh0PSJEb25hdGUiLz4gPC9yZGY6QmFnPiA8L3Bob3Rvc2hvcDpUZXh0TGF5ZXJzPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjg1YjA4NTVjLTc2ZDktNDA2YS04YTAxLTVhZjMwYzk4ZTQwOCIgc3RFdnQ6d2hlbj0iMjAxOC0xMS0yMlQxNzoxODo1MSswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKE1hY2ludG9zaCkiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjg3Y2MyMzYwLTdjZDMtNDMwYy05M2IyLWUzMGY4OTIzMzU2YSIgc3RFdnQ6d2hlbj0iMjAxOS0wOS0yNVQxNjozMDozNCswMjowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKE1hY2ludG9zaCkiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+oL3K1QAAA21JREFUWMPtmd1OE0EUx/sIvIF9EB9EpAhCaCQQPmIMEcQogqh4sak2JhqjCeiVhJQQI6WFWqNFS9gWQpSolQS/UG+MtRfcjPufMGZ2dmd3dmmtafYkk3R3Z85Of+fMOWdmQ4SQkNiOLbaEjaYZrWA0EjTPrXDAL2zH1w64FkCratOk0I2HTYFn19Tzm0zQvQKfzI2R/KccKe//IjLJ7qQcdYhS3i+TjR+bZCw/3qjgK0Y7wkNXDilP3iaIm7gBZ9DFe4AOmSslSOtSeyOC1yn0g6SpNAgwmWx9K5Lbepx6Pe+5InCZAeygo53NnaNev/Ix89/Aks3VZzuq7OVafsrRk2XAZRN2+iMTa5P0+cjqaCNC10OqsRyezTzcy2T9QGehJvd11XSvczlKHr2bJZ9/f6HjSz9L5PLaFUfd0IOVg5baTVMd7FnzYoSMvrxA9ip7f/UNPDvtaVWykAj90ZVupdge8goQIeVfQI8Vb1IY7PpUpode488lSvPkztZdahRIfPOWRTd7dnV9itzYiJNL+Ql6jbGs3/T2A6pv2IAXWWojWjFG+3Sku6QJvyV5whQGMU/APvN8iF63pTpcuXiGzmJ4raGLfdK7y9QTeU81h6LzlvfCUHzf6TczJkP2ZQct+rBy8B63uaIPDM/fwzVvmKpB91JWMhnI9B8aOgSA7frBq3lQkKEXw76M3ZyMWPrYjYGIFRYMCEHYqgt0hKHDeDoA817p1l80kGpShHciLrO4bjdnGXSZwHBu0Au1gO6WeN10zb6fMyXSWkBnSRBxGd4JWDPbD5Whd2d6aSjBOIzHb+QGF+gV5ZLRS0nI1/MoNb1C73naR58j+fH9tUJMWumgeYUOQUK0CxEq0NtTnb5LxrDqxkgGNprqojEcIYV5uNvOVAZm0CjZUAVgV8rfR6mIECAmPhjCLpGqQuf14TfebQddNA5yyMLOY9sy0nVz5OdkkQcuExwX+D0GmP+wYJReJy3eLysZUX+rriL+GXQBXm+2n1x8NU71s9jOj2H38U5WEh5PttLx+nfdAD1CVyWbv+gYlmMArwdeTsBxAIaDMJWyUnbgdW39unQMlvO91/dNmxm7XasqdHFzg3ofUMXxKC1ZP74yQQyH4dnmC78d6vRKcLRb76Pd4CNGnT5iBJ/rqn52rss+1/0B/zQ8BmRqKe8AAAAASUVORK5CYII=" alt="Flattr this git repo" /></a></p>
-<p>Adds support for the Russian language to the <a href="https://github.com/unDocUMeantIt/sylly">sylly</a> package. Due to some restrictions on CRAN, the full package sources are only available from the <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">project homepage</a>.</p>
+<p><a href="https://flattr.com/submit/auto?user_id=m.eik&amp;url=https://github.com/unDocUMeantIt/sylly.ru&amp;title=sylly.ru&amp;language=en_GB&amp;tags=github&amp;category=software"><img src="data:text/html; charset=UTF-8;charset=utf-8,%3C%21DOCTYPE%20html%3E%0A%3Chtml%0A%20%20lang%3D%22en%22%0A%20%20data%2Dinitial%2Dstate%3D%22%7B%26quot%3Bapp%26quot%3B%3A%7B%26quot%3BviewComponent%26quot%3B%3A%26quot%3Bview%2Dhome%26quot%3B%2C%26quot%3Bbanners%26quot%3B%3A%5B%5D%7D%2C%26quot%3Bview%26quot%3B%3A%7B%26quot%3Bcreators%26quot%3B%3A%5B%7B%26quot%3Bid%26quot%3B%3A%26quot%3Bm0dd02%26quot%3B%2C%26quot%3Btitle%26quot%3B%3A%26quot%3BFeminist%20Frequency%26quot%3B%2C%26quot%3Bimage%26quot%3B%3A%26quot%3Bhttps%3A%5C%2F%5C%2Fstatic%2Eflattr%2Ecom%5C%2Fuc%5C%2Fm0d%5C%2Fd02%5C%2Fm0dd02%5C%2Fprofile%2Epng%3F1643101456%26quot%3B%2C%26quot%3BprofileUrl%26quot%3B%3A%26quot%3B%5C%2F%40femfreq%26quot%3B%7D%2C%7B%26quot%3Bid%26quot%3B%3A%26quot%3B42163l%26quot%3B%2C%26quot%3Btitle%26quot%3B%3A%26quot%3BEFF%26quot%3B%2C%26quot%3Bimage%26quot%3B%3A%26quot%3Bhttps%3A%5C%2F%5C%2Fstatic%2Eflattr%2Ecom%5C%2Fuc%5C%2F421%5C%2F63l%5C%2F42163l%5C%2Fprofile%2Epng%3F1627416904%26quot%3B%2C%26quot%3BprofileUrl%26quot%3B%3A%26quot%3B%5C%2F%40EFF%26quot%3B%7D%2C%7B%26quot%3Bid%26quot%3B%3A%26quot%3B451zko%26quot%3B%2C%26quot%3Btitle%26quot%3B%3A%26quot%3BOpenStreetMap%26quot%3B%2C%26quot%3Bimage%26quot%3B%3A%26quot%3Bhttps%3A%5C%2F%5C%2Fstatic%2Eflattr%2Ecom%5C%2Fuc%5C%2F451%5C%2Fzko%5C%2F451zko%5C%2Fprofile%2Epng%3F1612282157%26quot%3B%2C%26quot%3BprofileUrl%26quot%3B%3A%26quot%3B%5C%2F%40openstreetmap%26quot%3B%7D%2C%7B%26quot%3Bid%26quot%3B%3A%26quot%3B49pp55%26quot%3B%2C%26quot%3Btitle%26quot%3B%3A%26quot%3BGIMP%26quot%3B%2C%26quot%3Bimage%26quot%3B%3A%26quot%3Bhttps%3A%5C%2F%5C%2Fstatic%2Eflattr%2Ecom%5C%2Fuc%5C%2F49p%5C%2Fp55%5C%2F49pp55%5C%2Fprofile%2Epng%3F1612859113%26quot%3B%2C%26quot%3BprofileUrl%26quot%3B%3A%26quot%3B%5C%2F%40schumaml%26quot%3B%7D%2C%7B%26quot%3Bid%26quot%3B%3A%26quot%3Bllw60o%26quot%3B%2C%26quot%3Btitle%26quot%3B%3A%26quot%3BWikipedia%26quot%3B%2C%26quot%3Bimage%26quot%3B%3A%26quot%3Bhttps%3A%5C%2F%5C%2Fstatic%2Eflattr%2Ecom%5C%2Fuc%5C%2Fllw%5C%2F60o%5C%2Fllw60o%5C%2Fprofile%2Epng%3F1612295155%26quot%3B%2C%26quot%3BprofileUrl%26quot%3B%3A%26quot%3B%5C%2F%40Wikimedia%26quot%3B%7D%5D%7D%2C%26quot%3Bnotifications%26quot%3B%3A%5B%5D%7D%22%0A%20%20data%2Dcsrf%3D%22a2cf6885f5ca1326551a3f8fd689999bb3d370ea%22%0A%3E%0A%20%20%3Chead%3E%0A%20%20%20%20%3Cmeta%20charset%3D%22utf%2D8%22%3E%0A%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice%2Dwidth%2C%20initial%2Dscale%3D1%22%3E%0A%3Cmeta%20name%3D%22author%22%20content%3D%22Flattr%22%3E%0A%3Cmeta%20name%3D%22format%2Ddetection%22%20content%3D%22telephone%3Dno%22%3E%0A%3Cmeta%20name%3D%22apple%2Dmobile%2Dweb%2Dapp%2Dtitle%22%20content%3D%22Flattr%22%3E%0A%3Cmeta%20property%3D%22fb%3Aapp%5Fid%22%20content%3D%22132416610128451%22%20%2F%3E%0A%3Cmeta%20property%3D%22og%3Atype%22%20content%3D%22website%22%3E%0A%3Cmeta%20property%3D%22og%3Asite%5Fname%22%20content%3D%22Flattr%22%3E%0A%0A%3C%21%2D%2D%20Robots%20%2D%2D%3E%0A%0A%3C%21%2D%2D%20Copyright%2Fflattr%3Aid%20%2D%2D%3E%0A%20%20%3Cmeta%20name%3D%22Copyright%22%20content%3D%22No%20copyright%2C%20just%20don%27t%20use%20our%20logo%20to%20do%20evil%2C%20please%21%22%3E%0A%0A%3C%21%2D%2D%20Title%20%2D%2D%3E%0A%3Ctitle%3EFlattr%20%2D%20Home%3C%2Ftitle%3E%0A%3Cmeta%20property%3D%22og%3Atitle%22%20content%3D%22Flattr%20%2D%20Home%22%3E%0A%0A%3C%21%2D%2D%20Description%20%2D%2D%3E%0A%3Cmeta%20name%3D%22description%22%20content%3D%22Help%20the%20open%20and%20free%20web%20flourish%2E%20Support%20websites%20by%20paying%20for%20their%20free%20content%2E%22%3E%0A%3Cmeta%20property%3D%22og%3Adescription%22%20content%3D%22Help%20the%20open%20and%20free%20web%20flourish%2E%20Support%20websites%20by%20paying%20for%20their%20free%20content%2E%22%3E%0A%0A%3C%21%2D%2D%20Canonical%20URL%20%2D%2D%3E%0A%0A%3C%21%2D%2D%20Image%20%2D%2D%3E%0A%3Cmeta%20name%3D%22thumbnail%22%20content%3D%22https%3A%2F%2Fflattr%2Ecom%2Fimages%2Fflattr%2Dicon%2Dthumb%2Epng%3Fv%3D69BGoRR00r%22%3E%0A%3Cmeta%20property%3D%22og%3Aimage%22%20content%3D%22https%3A%2F%2Fflattr%2Ecom%2Fimages%2Fflattr%2Dicon%2Dthumb%2Epng%3Fv%3D69BGoRR00r%22%3E%0A%3Cmeta%20property%3D%22og%3Aimage%3Awidth%22%20content%3D%22320%22%3E%0A%3Cmeta%20property%3D%22og%3Aimage%3Aheight%22%20content%3D%22320%22%3E%0A%0A%3C%21%2D%2D%20Twitter%20%2D%2D%3E%0A%3Cmeta%20name%3D%22twitter%3Asite%22%20content%3D%22%40flattr%22%3E%0A%3Cmeta%20name%3D%22twitter%3Acard%22%20content%3D%22summary%22%3E%0A%0A%3C%21%2D%2D%20Favicons%20%2D%2D%3E%0A%3Clink%20rel%3D%22apple%2Dtouch%2Dicon%22%20sizes%3D%22180x180%22%20href%3D%22%2Fimages%2Ffavicons%2Fapple%2Dtouch%2Dicon%2Epng%3Fv%3D69BGoRR00r%22%3E%0A%3Clink%20rel%3D%22icon%22%20type%3D%22image%2Fpng%22%20sizes%3D%2232x32%22%20href%3D%22%2Fimages%2Ffavicons%2Ffavicon%2D32x32%2Epng%3Fv%3D69BGoRR00r%22%3E%0A%3Clink%20rel%3D%22icon%22%20type%3D%22image%2Fpng%22%20sizes%3D%2216x16%22%20href%3D%22%2Fimages%2Ffavicons%2Ffavicon%2D16x16%2Epng%3Fv%3D69BGoRR00r%22%3E%0A%3Clink%20rel%3D%22manifest%22%20href%3D%22%2Fimages%2Ffavicons%2Fsite%2Ewebmanifest%3Fv%3D69BGoRR00r%22%3E%0A%3Clink%20rel%3D%22mask%2Dicon%22%20href%3D%22%2Fimages%2Ffavicons%2Fsafari%2Dpinned%2Dtab%2Esvg%3Fv%3D69BGoRR00r%22%20color%3D%22%236bc76b%22%3E%0A%3Clink%20rel%3D%22shortcut%20icon%22%20href%3D%22%2Fimages%2Ffavicons%2Ffavicon%2Eico%3Fv%3D69BGoRR00r%22%3E%0A%3Cmeta%20name%3D%22apple%2Dmobile%2Dweb%2Dapp%2Dtitle%22%20content%3D%22Flattr%22%3E%0A%3Cmeta%20name%3D%22application%2Dname%22%20content%3D%22Flattr%22%3E%0A%3Cmeta%20name%3D%22msapplication%2DTileColor%22%20content%3D%22%23d1efc3%22%3E%0A%3Cmeta%20name%3D%22msapplication%2Dconfig%22%20content%3D%22%2Fimages%2Ffavicons%2Fbrowserconfig%2Exml%3Fv%3D69BGoRR00r%22%3E%0A%3Cmeta%20name%3D%22theme%2Dcolor%22%20content%3D%22%23eeffe5%22%3E%0A%0A%3C%21%2D%2D%20Extension%20%2D%2D%3E%0A%20%20%3Clink%20rel%3D%22chrome%2Dwebstore%2Ditem%22%20href%3D%22https%3A%2F%2Fchrome%2Egoogle%2Ecom%2Fwebstore%2Fdetail%2Fimgggkfckgfikmcomnfcocnfcjmladcd%22%3E%0A%20%20%3Cmeta%20name%3D%22google%2Dsite%2Dverification%22%20content%3D%22FN4cP6P%2D9TBdU4I8NeeiYZR9WJwoQQlYQDO1MiinZq0%22%3E%0A%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22%2Fdist%2Fmain%2Eaf7ceeb20d07e793cda6%2Ecss%22%3E%0A%20%20%3C%2Fhead%3E%0A%0A%20%20%3Cbody%20class%3D%22app%20u%2Dbg%2Dwhite%20u%2Dfont%2Dbase%22%3E%0A%20%20%20%20%3Cdiv%20id%3D%22vue%2Dapp%22%3E%3C%2Fdiv%3E%0A%20%20%20%20%3Cscript%20src%3D%22%2Fdist%2Fmain%2Eaf7ceeb20d07e793cda6%2Ebundle%2Ejs%22%3E%3C%2Fscript%3E%0A%0A%20%20%20%20%3C%21%2D%2D%20Google%20Structured%20Data%20%2D%2D%3E%0A%20%20%20%20%20%20%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A" alt="Flattr this git repo" /></a></p>
+<p>Adds support for the Russian language to the <a href="https://github.com/unDocUMeantIt/sylly">sylly</a> package. Due to
+some restrictions on CRAN, the full package sources are only available
+from the <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">project
+homepage</a>.</p>
 <h2 id="installation">Installation</h2>
-<h3 id="development-releases-via-the-project-repository">Development releases via the project repository</h3>
-<p>Installation of tha latest stable release is fairly easy, it's available from the project's own repository:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="st">&quot;sylly.ru&quot;</span>, <span class="dt">repo=</span><span class="st">&quot;https://undocumeantit.github.io/repos/l10n&quot;</span>)</code></pre></div>
-<p>To automatically get updates, consider <a href="https://undocumeantit.github.io/repos">adding the repository to your R configuration</a>. You might also want to subscribe to the package's <a href="https://undocumeantit.github.io/repos/l10n/pckg/sylly.ru/RSS.xml">RSS feed</a> to get notified of new releases.</p>
-<p>If you're running a Debian based operating system, you might be interested in the <a href="https://undocumeantit.github.io/repos/l10n/pckg/sylly.ru/deb_repo.html">precompiled *.deb packages</a>.</p>
+<h3 id="development-releases-via-the-project-repository">Development
+releases via the project repository</h3>
+<p>Installation of tha latest stable release is fairly easy, it’s
+available from the project’s own repository:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;sylly.ru&quot;</span>, <span class="at">repo=</span><span class="st">&quot;https://undocumeantit.github.io/repos/l10n&quot;</span>)</span></code></pre></div>
+<p>To automatically get updates, consider <a href="https://undocumeantit.github.io/repos">adding the repository to
+your R configuration</a>. You might also want to subscribe to the
+package’s <a href="https://undocumeantit.github.io/repos/l10n/pckg/sylly.ru/RSS.xml">RSS
+feed</a> to get notified of new releases.</p>
+<p>If you’re running a Debian based operating system, you might be
+interested in the <a href="https://undocumeantit.github.io/repos/l10n/pckg/sylly.ru/deb_repo.html">precompiled
+*.deb packages</a>.</p>
 <h3 id="installation-via-github">Installation via GitHub</h3>
-<p>To install the package directly from GitHub, you can use <code>install_github()</code> from the <a href="https://github.com/hadley/devtools">devtools</a> package:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(devtools)
-<span class="kw">install_github</span>(<span class="st">&quot;unDocUMeantIt/sylly.ru&quot;</span>) <span class="co"># stable release</span>
-<span class="kw">install_github</span>(<span class="st">&quot;unDocUMeantIt/sylly.ru&quot;</span>, <span class="dt">ref=</span><span class="st">&quot;develop&quot;</span>) <span class="co"># development version</span></code></pre></div>
+<p>To install the package directly from GitHub, you can use
+<code>install_github()</code> from the <a href="https://github.com/hadley/devtools">devtools</a> package:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(devtools)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install_github</span>(<span class="st">&quot;unDocUMeantIt/sylly.ru&quot;</span>) <span class="co"># stable release</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">install_github</span>(<span class="st">&quot;unDocUMeantIt/sylly.ru&quot;</span>, <span class="at">ref=</span><span class="st">&quot;develop&quot;</span>) <span class="co"># development version</span></span></code></pre></div>
 <h2 id="contributing">Contributing</h2>
-<p>To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please use the <a href="https://github.com/unDocUMeantIt/sylly.ru/issues">issue tracker</a>.</p>
+<p>To ask for help, report bugs, suggest feature improvements, or
+discuss the global development of the package, please use the <a href="https://github.com/unDocUMeantIt/sylly.ru/issues">issue
+tracker</a>.</p>
 <h3 id="branches">Branches</h3>
-<p>Please note that all development happens in the <code>develop</code> branch. Pull requests against the <code>master</code> branch will be rejected, as it is reserved for the current stable release.</p>
+<p>Please note that all development happens in the <code>develop</code>
+branch. Pull requests against the <code>master</code> branch will be
+rejected, as it is reserved for the current stable release.</p>
 <h2 id="license">License</h2>
-<p>sylly.ru Copyright (C) 2017 Meik Michalke <a href="mailto:meik.michalke@hhu.de" class="email">meik.michalke@hhu.de</a></p>
-<p>sylly.ru is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>
-<p>sylly.ru is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
-<p>You should have received a copy of the license with the source package as the file COPYING or LICENSE. If not, see <a href="https://www.gnu.org/licenses">&lt;https://www.gnu.org/licenses/&gt;</a>.</p>
+<p>sylly.ru Copyright (C) 2017 Meik Michalke
+<a href="mailto:meik.michalke@hhu.de" class="email">meik.michalke@hhu.de</a></p>
+<p>sylly.ru is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your
+option) any later version.</p>
+<p>sylly.ru is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+Public License for more details.</p>
+<p>You should have received a copy of the license with the source
+package as the file COPYING or LICENSE. If not, see <a href="https://www.gnu.org/licenses">&lt;https://www.gnu.org/licenses/&gt;</a>.</p>
 </body>
 </html>

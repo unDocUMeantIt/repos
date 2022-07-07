@@ -46,3 +46,45 @@ Depends: R (>= 3.1),koRpus (>= 0.11-2)
 Imports: sylly.ru
 License: GPL (>= 3)
 MD5sum: 2c057226e6da1472dcd9b0a664421e9f
+
+Package: sylly.de
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: 32be0a02dde96914208d7e165af4827a
+
+Package: sylly.es
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: 00dc94a701a1985571d60a74b74ff557
+
+Package: sylly.fr
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: ba3403a4c46eb21d62eb2a6d691a7edf
+
+Package: sylly.it
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: e23bf0e02c1050a1902a6ac25ab70da8
+
+Package: sylly.nl
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: e231495522d2312d087256a1e639721e
+
+Package: sylly.pt
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: a5b81e2a523348d433075982001c2c33
+
+Package: sylly.ru
+Version: 0.1-2
+Depends: R (>= 3.1),sylly
+License: GPL (>= 3)
+MD5sum: 396363c6e9e0f4174a544d7a0c7ca531
