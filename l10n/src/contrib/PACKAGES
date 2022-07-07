@@ -110,6 +110,14 @@ License: GPL (>= 3)
 MD5sum: 4c422284ed33a314d8d94995271699f0
 NeedsCompilation: no
 
+Package: koRpus.lang.nl
+Version: 0.1-6
+Depends: R (>= 3.1),koRpus (>= 0.11-2)
+Imports: sylly.nl
+License: GPL (>= 3)
+MD5sum: 078dc9953bbbead57b435e7888ee5f26
+NeedsCompilation: no
+
 Package: koRpus.lang.pt
 Version: 0.01-2
 Depends: R (>= 2.10.0),koRpus (>= 0.11-1)

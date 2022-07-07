@@ -14,8 +14,36 @@
 			]]>
 		</description>
 		<generator>
-			roxyPackage (0.06-5)
+			roxyPackage (0.10-1)
 		</generator>
+		<item>
+			<title>
+				Changes in koRpus.lang.nl version 0.1-6
+			</title>
+			<link>
+				https://undocumeantit.github.io/repos/l10n/pckg/koRpus.lang.nl
+			</link>
+			<pubDate>
+				Thu, 07 Jul 2022 00:00:00 +0000
+			</pubDate>
+			<guid isPermaLink="false">
+				koRpus.lang.nl0.1-6(2022-07-07)
+			</guid>
+			<description>
+				<![CDATA[ 
+					<h4>
+						fixed
+					</h4>
+					<ul>
+						<li>
+							<p>
+								moved definitions of  TT.tokenizer, TT.abbrev, and TT.params from a unix-only section to one that is not OS dependent
+							</p>
+						</li>
+					</ul> 
+				]]>
+			</description>
+		</item>
 		<item>
 			<title>
 				Changes in koRpus.lang.nl version 0.1-5

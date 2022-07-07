@@ -239,6 +239,28 @@ Description: GNU R package "Language Support for 'koRpus' Package: Dutch"
  Adds support for the Dutch language to the 'koRpus' package. To ask for help, report bugs, suggest feature improvements, or discuss the global development of the package, please
  consider subscribing to the koRpus-dev mailing list (<https://korpusml.reaktanz.de>).
 
+Package: r-other-undocumeantit-korpus.lang.nl
+Architecture: all
+Version: 0.1-6-1
+Priority: optional
+Section: gnu-r
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Installed-Size: 52
+Depends: r-base-core (>= 4.2.0), r-api-4.0, r-cran-korpus (>= 0.11-2) | r-other-reaktanz-korpus (>= 0.11-2), r-cran-sylly.nl | r-other-reaktanz-sylly.nl | r-other-undocumeantit-sylly.nl
+Filename: dists/unstable/main/all/r-other-undocumeantit-korpus.lang.nl_0.1-6-1_all.deb
+Size: 18384
+MD5sum: d3bdfaeabfdd6e9b37767b5bf9315d02
+SHA1: 8bc68573615050f45b1c2c5f792ce397cfd5d3bb
+SHA256: 9c46549fd813324c186b41b3a1dac1ba46557d906939e5fc7ece237725a89dc0
+SHA512: ba2ee93a59c71761a4dea22f1f574099d04cc08693213fe98b954a1f3d62e5dda88d594a777e2d54c6c6e61ddb182a1196e785c2235802926bfd33f4160a6f00
+Homepage: https://reaktanz.de/?c=hacking&s=koRpus
+Description: GNU R package "Language Support for 'koRpus' Package: Dutch"
+ .
+ Adds support for the Dutch language to the 'koRpus' package. To ask for help, report
+ bugs, suggest feature improvements, or discuss the global development of the package,
+ please consider subscribing to the koRpus-dev mailing list
+ (<https://korpusml.reaktanz.de>).
+
 Package: r-other-undocumeantit-korpus.lang.pt
 Architecture: all
 Version: 0.01-2-1
