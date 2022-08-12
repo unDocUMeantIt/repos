@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 12 Aug 2022 11:17:12 +0200
+Source: undocumeantit-keyring
+Binary: undocumeantit-keyring
+Architecture: all
+Version: 0.6-1
+Distribution: unstable
+Urgency: low
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Changed-By: m.eik michalke <meik.michalke@hhu.de>
+Description:
+ undocumeantit-keyring - OpenPGP keyring for the undocumeantit repository
+Changes:
+ undocumeantit-keyring (0.6-1) unstable; urgency=low
+ .
+   * updated keyring
+Checksums-Sha1:
+ 1a900bc69ee500bbf90e621f932e14ea3a4e57a0 3156 undocumeantit-keyring_0.6-1_all.deb
+ ce8f8e3fb46161a97f8d1eb6a01cffda880529b1 8047 undocumeantit-keyring_0.6-1_amd64.buildinfo
+Checksums-Sha256:
+ 8d51834945be87a972fa81a17b18593cd94df053a8710bcd7cc5ec9da46fd651 3156 undocumeantit-keyring_0.6-1_all.deb
+ 43fb09c8fb5ba99b034b622234c3f17a56d3890667eed1a869bb1b4a69d5d675 8047 undocumeantit-keyring_0.6-1_amd64.buildinfo
+Files:
+ c07554eeed7503cf68281f5632828da6 3156 misc optional undocumeantit-keyring_0.6-1_all.deb
+ 111a8bc85aa8956aea5a89d0a09e8447 8047 misc optional undocumeantit-keyring_0.6-1_amd64.buildinfo

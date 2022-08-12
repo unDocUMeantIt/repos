@@ -781,3 +781,32 @@ Checksums-Sha512:
  070a9b35ba8a23ab44adb465d8f2112fcb1ca83ffe3b476a1cd44ca6fee011ea10a2f4ae5ece79ef4a213b88d7a903337ec8cca507b09854dc0ce5a035370540 3172 undocumeantit-keyring_0.5.orig.tar.xz
  facdc15252d124a72a5d854576f22a568aebf33c2f764e41ff05f992097c8a44705ab7577a7a6771f00624dbb37f2a7b33d200803786ff87eac14b9fda86c6e3 1396 undocumeantit-keyring_0.5-1.debian.tar.xz
 
+Package: undocumeantit-keyring
+Format: 3.0 (quilt)
+Binary: undocumeantit-keyring
+Architecture: all
+Version: 0.6-1
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Standards-Version: 4.6.1.1
+Build-Depends-Indep: debhelper (>> 9.0.0), cdbs
+Homepage: https://undocumeantit.github.io/repos/l10n
+Directory: source/unstable
+Package-List:
+ undocumeantit-keyring deb misc optional arch=all
+Files:
+ cb43bb58d11a9812790078a4e954ac6e 950 undocumeantit-keyring_0.6-1.dsc
+ 5b8f111737d338200d7a6a505cf6954e 1444 undocumeantit-keyring_0.6.orig.tar.xz
+ 0d1b0a689315bfe97d897024db500ded 1416 undocumeantit-keyring_0.6-1.debian.tar.xz
+Checksums-Sha1:
+ 800a65a64bdc475e9d38b6b29869e398fb5e83e2 950 undocumeantit-keyring_0.6-1.dsc
+ 6ebb7c67219a94f959175a966ec2b3b7252ec07c 1444 undocumeantit-keyring_0.6.orig.tar.xz
+ ff110146abe4586a10f1cbaeddf2c6e56fdb50a4 1416 undocumeantit-keyring_0.6-1.debian.tar.xz
+Checksums-Sha256:
+ cae7d284e00fb439480359c89320dcc7c9119a136aef90848a4952df136dbf41 950 undocumeantit-keyring_0.6-1.dsc
+ f5e25ed3f2a3cb6a48a19f04f006d10f0b5ac14bf301b9947029b28eee221ae8 1444 undocumeantit-keyring_0.6.orig.tar.xz
+ a477ba6a8b12c8ca4730c40a93ace703df51894d76b5a768a8e41fb2c6a58a50 1416 undocumeantit-keyring_0.6-1.debian.tar.xz
+Checksums-Sha512:
+ a14690c501d0f087979fb41bfc7cfabaacda2f2f6dab9478e68d35a9e7474cc0f3eef9fbfca3dbc28c2436077fc561f7ec19018c7e23ca488ba6dcd57fdef956 950 undocumeantit-keyring_0.6-1.dsc
+ 34956ddc2771429de624b40bff811f5b377af1682e0373783447d1c92114b02ef59ab3bcf72784dd7f51590ee081eda0a1223e296eca40b8e44f23fd64c1589a 1444 undocumeantit-keyring_0.6.orig.tar.xz
+ 1c3a0a807fefe2f2d02cac3a6ad0d3abe6df31bb0344ba0637b302b687ee99e8f98a409a1349979e52ee3f98fc96b9a9ea9b70c6818d235ff999c8a85192a9b3 1416 undocumeantit-keyring_0.6-1.debian.tar.xz
+
