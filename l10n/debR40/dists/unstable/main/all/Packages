@@ -580,3 +580,23 @@ Description: OpenPGP keyring for the undocumeantit repository
  Provides the keyring for Debian packages hosted at the undocumeantit
  repository. It is necessary to be able to use secure apt.
 
+Package: undocumeantit-keyring
+Architecture: all
+Version: 0.7-1
+Priority: optional
+Section: misc
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Installed-Size: 12
+Depends: gpgv
+Filename: dists/unstable/main/all/undocumeantit-keyring_0.7-1_all.deb
+Size: 3148
+MD5sum: 21025d1e034ade71bba897b50b4dff6d
+SHA1: a34caab12757ed8ac716d2db8f7651d82a5a0882
+SHA256: b1411319b23d3ad6ba63242c0a04e4538a39da23f27dde9da36548c30fdd55d0
+SHA512: 3a12af9a960fd038222458687ad6e6fd9869ee061ca14473beb17fa79318697fd5fbe06f160b7d8852578d95545736e484505966140a29285983f9e02b527244
+Homepage: https://undocumeantit.github.io/repos/l10n
+Description: OpenPGP keyring for the undocumeantit repository
+ .
+ Provides the keyring for Debian packages hosted at the undocumeantit
+ repository. It is necessary to be able to use secure apt.
+
